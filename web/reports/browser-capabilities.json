@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-03T12:45:00Z",
+  "browserSurface": "permitted CUA cloud Chrome",
+  "checks": [
+    {
+      "url": "https://get.webgl.org/",
+      "observedPageState": "webgl-disabled",
+      "message": "Hmm. While your browser seems to support WebGL, it is disabled or unavailable. If possible, please ensure that you are running the latest drivers for your video card.",
+      "cubeVisible": false,
+      "screenshot": "Captured in CUA tool output at 12:44:26Z; no local-file save route was exposed by the browser API."
+    },
+    {
+      "url": "https://get.webgl.org/webgl2/",
+      "observedPageState": "webgl-disabled",
+      "message": "Hmm. While your browser seems to support WebGL2, it is disabled or unavailable. If possible, please ensure that you are running the latest drivers for your video card.",
+      "cubeVisible": false,
+      "screenshot": "Captured in CUA tool output at 12:44:59Z; no local-file save route was exposed by the browser API."
+    }
+  ],
+  "renderer": null,
+  "rendererReason": "No renderer/vendor information is exposed by the failed official test pages.",
+  "conclusion": "The current cloud browser cannot establish the required WebGL2 rendering capability. Private hosting alone would address a separate reachability issue, not this graphics blocker.",
+  "configurationChanged": false,
+  "deploymentPerformed": false
+}

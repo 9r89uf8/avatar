@@ -1,0 +1,12 @@
+{
+  "CharcoalTee": {
+    "vertices": 10968,
+    "maxBindCorrectionMeters": 0.004001351835641364,
+    "meanBindCorrectionMeters": 0.0001540116266406639
+  },
+  "CollarRibbing": {
+    "vertices": 832,
+    "maxBindCorrectionMeters": 0.00018234313740761216,
+    "meanBindCorrectionMeters": 8.709506817721074e-06
+  }
+}

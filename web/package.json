@@ -1,0 +1,30 @@
+{
+  "name": "atelier-avatar-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "restore:assets": "node scripts/restore-assets.mjs",
+    "predev": "npm run restore:assets",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "npm run restore:assets",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs",
+    "preverify:asset": "npm run restore:assets",
+    "verify:asset": "node scripts/verify-asset.mjs",
+    "preverify:contract": "npm run restore:assets",
+    "verify:contract": "node scripts/check-render-contract.mjs"
+  },
+  "dependencies": {
+    "@babylonjs/core": "8.32.0",
+    "@babylonjs/loaders": "8.32.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "7.1.9",
+    "@types/node": "24.7.2",
+    "gltf-validator": "2.0.0-dev.3.10"
+  }
+}

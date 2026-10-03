@@ -1,0 +1,89 @@
+{
+  "source": "https://github.com/makehumancommunity/mpfb2",
+  "commit": "afb9f530a7c2741dedb8df0ebae2e0b183caec21",
+  "mpfb_version": "2.0.17",
+  "blender_tested": "4.3.2",
+  "licenses": {
+    "tool": "GPL-3.0-or-later",
+    "bundled_assets": "CC0-1.0"
+  },
+  "packs": [
+    {
+      "name": "makehuman_system_assets",
+      "url": "https://files.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "source_page": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+      "license": "CC0 (pack declaration; selected embedded headers also verified)",
+      "bytes": 280737770,
+      "sha256": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107",
+      "metadata_path": "vendor/assets/packs/makehuman_system_assets.json"
+    },
+    {
+      "name": "skins01",
+      "url": "https://files.makehumancommunity.org/asset_packs/skins01/skins01_cc0.zip",
+      "source_page": "https://static.makehumancommunity.org/assets/assetpacks/skins01.html",
+      "license": "CC0 (pack declaration; selected embedded headers also verified)",
+      "bytes": 104227958,
+      "sha256": "7495ab99287053bd19ff1636114e64b608994d9f7437fea6cc75ea387f96dba9",
+      "metadata_path": "vendor/assets/packs/skins01.json"
+    },
+    {
+      "name": "eyebrows01",
+      "url": "https://files.makehumancommunity.org/asset_packs/eyebrows01/eyebrows01_cc0.zip",
+      "source_page": "https://static.makehumancommunity.org/assets/assetpacks/eyebrows01.html",
+      "license": "CC0 (pack declaration; selected embedded headers also verified)",
+      "bytes": 11477790,
+      "sha256": "5425891dce613bef85c7117f7843cd49d57d1fb28127e76d77d2a2eaccb4fe78",
+      "metadata_path": "vendor/assets/packs/eyebrows01.json"
+    },
+    {
+      "name": "eyelashes01",
+      "url": "https://files.makehumancommunity.org/asset_packs/eyelashes01/eyelashes01_cc0.zip",
+      "source_page": "https://static.makehumancommunity.org/assets/assetpacks/eyelashes01.html",
+      "license": "CC0 (pack declaration; selected embedded headers also verified)",
+      "bytes": 3493692,
+      "sha256": "b7b5eb97cfb930d93e8c067885801443bcab2dcbbe6c2c2cfff7ad87992077e8",
+      "metadata_path": "vendor/assets/packs/eyelashes01.json"
+    },
+    {
+      "name": "shirts01",
+      "url": "https://files.makehumancommunity.org/asset_packs/shirts01/shirts01_cc0.zip",
+      "source_page": "https://static.makehumancommunity.org/assets/assetpacks/shirts01.html",
+      "license": "CC0 (pack declaration; selected embedded headers also verified)",
+      "bytes": 24479483,
+      "sha256": "a5a723b0e84a109bb190fcfeac7f1de4138d875da3e30fe5b3340eac9f38bcd3",
+      "metadata_path": "vendor/assets/packs/shirts01.json"
+    },
+    {
+      "name": "pants01",
+      "url": "https://files.makehumancommunity.org/asset_packs/pants01/pants01_cc0.zip",
+      "source_page": "https://static.makehumancommunity.org/assets/assetpacks/pants01.html",
+      "license": "CC0 (pack declaration; selected embedded headers also verified)",
+      "bytes": 21908723,
+      "sha256": "e4e0ec60db34f279be291a83cfd7b342a7c5cf09bb7676682a5f39f4f6ac4ad9",
+      "metadata_path": "vendor/assets/packs/pants01.json"
+    },
+    {
+      "name": "hair01",
+      "url": "https://files.makehumancommunity.org/asset_packs/hair01/hair01_cc0.zip",
+      "source_page": "https://static.makehumancommunity.org/assets/assetpacks/hair01.html",
+      "license": "CC0 (pack declaration; selected embedded headers also verified)",
+      "bytes": 227775853,
+      "sha256": "49445d69848a313ec41a9970f6a0fe4bcf925c9f1c6ef40a76f119c2e07940c9",
+      "metadata_path": "vendor/assets/packs/hair01.json"
+    },
+    {
+      "name": "faceunits01",
+      "url": "https://files.makehumancommunity.org/functional/faceunits01.zip",
+      "source_page": "https://static.makehumancommunity.org/assets/assetpacks/faceunits01.html",
+      "license": "CC0",
+      "bytes": 257821,
+      "sha256": "d113107bd7eb59f3af4df6fc0ec29bfcc593f496d0b336aec14f086a80ce7146",
+      "metadata_path": "vendor/assets/packs/faceunits01.json"
+    }
+  ],
+  "cautions": [
+    "o4saken_long01 pack metadata claims CC0 but embedded .mhclo says CC BY 4.0; not selected.",
+    "callharvey3d_midtoned_female .mhmat contains legacy AGPLv3 header despite pack CC0 metadata; not selected.",
+    "All acquired skins are at most 2048x2048. No source 4K claim is justified."
+  ]
+}

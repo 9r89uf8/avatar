@@ -1,0 +1,751 @@
+{
+  "checkedAt": "2026-10-03T14:45:51.211Z",
+  "file": "/workspace/scratch/defd6a072988/avatar/web/public/assets/avatar.glb",
+  "bytes": 30248948,
+  "sha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+  "contractIssues": [],
+  "inventory": {
+    "skinInfluences": {
+      "issues": [],
+      "primitives": [
+        {
+          "mesh": "base.001",
+          "meshIndex": 0,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0",
+            "WEIGHTS_1"
+          ],
+          "vertices": 40573,
+          "maxNonzeroWeights": 8,
+          "meanNonzeroWeights": 3.0143691617578194,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "mind_eyebrows_02",
+          "meshIndex": 1,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0"
+          ],
+          "vertices": 18709,
+          "maxNonzeroWeights": 3,
+          "meanNonzeroWeights": 2.5121064728205678,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "t_shirt_basic_tucked",
+          "meshIndex": 2,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0",
+            "WEIGHTS_1"
+          ],
+          "vertices": 11794,
+          "maxNonzeroWeights": 8,
+          "meanNonzeroWeights": 5.597507207054434,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "CollarRibbing",
+          "meshIndex": 3,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0",
+            "WEIGHTS_1"
+          ],
+          "vertices": 832,
+          "maxNonzeroWeights": 8,
+          "meanNonzeroWeights": 7.480769230769231,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "high-poly",
+          "meshIndex": 4,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0"
+          ],
+          "vertices": 2162,
+          "maxNonzeroWeights": 3,
+          "meanNonzeroWeights": 1.2178538390379279,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "high-poly",
+          "meshIndex": 4,
+          "primitiveIndex": 1,
+          "weightSets": [
+            "WEIGHTS_0"
+          ],
+          "vertices": 2025,
+          "maxNonzeroWeights": 3,
+          "meanNonzeroWeights": 1.2153086419753087,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "GroomCardsMesh.Back",
+          "meshIndex": 5,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0"
+          ],
+          "vertices": 24840,
+          "maxNonzeroWeights": 2,
+          "meanNonzeroWeights": 1.60841384863124,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "GroomCardsMesh.L",
+          "meshIndex": 6,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0"
+          ],
+          "vertices": 47016,
+          "maxNonzeroWeights": 3,
+          "meanNonzeroWeights": 1.220393057682491,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "GroomCardsMesh.R",
+          "meshIndex": 7,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0"
+          ],
+          "vertices": 46792,
+          "maxNonzeroWeights": 3,
+          "meanNonzeroWeights": 1.2091383142417507,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "LashesNatural",
+          "meshIndex": 8,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0"
+          ],
+          "vertices": 9504,
+          "maxNonzeroWeights": 1,
+          "meanNonzeroWeights": 1,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "LidWetline",
+          "meshIndex": 9,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0"
+          ],
+          "vertices": 2328,
+          "maxNonzeroWeights": 1,
+          "meanNonzeroWeights": 1,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "shoes02",
+          "meshIndex": 10,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0",
+            "WEIGHTS_1"
+          ],
+          "vertices": 1738,
+          "maxNonzeroWeights": 8,
+          "meanNonzeroWeights": 2.4010356731875717,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "teeth_base",
+          "meshIndex": 11,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0"
+          ],
+          "vertices": 4494,
+          "maxNonzeroWeights": 1,
+          "meanNonzeroWeights": 1,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "tongue01",
+          "meshIndex": 12,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0",
+            "WEIGHTS_1"
+          ],
+          "vertices": 253,
+          "maxNonzeroWeights": 8,
+          "meanNonzeroWeights": 4.9604743083003955,
+          "unreadableReason": null
+        },
+        {
+          "mesh": "pants_wool",
+          "meshIndex": 13,
+          "primitiveIndex": 0,
+          "weightSets": [
+            "WEIGHTS_0",
+            "WEIGHTS_1"
+          ],
+          "vertices": 5757,
+          "maxNonzeroWeights": 8,
+          "meanNonzeroWeights": 3.9098488796248048,
+          "unreadableReason": null
+        }
+      ]
+    },
+    "materials": [
+      "Skin",
+      "AvatarBody.mindfront_eyebrows_02",
+      "CottonCharcoal",
+      "EyeSurface",
+      "CorneaOptical",
+      "GroomDarkBrownCards",
+      "LashDarkBrown_Restrained",
+      "LidWetline_Warm",
+      "Leather",
+      "AvatarBody.teeth_base",
+      "AvatarBody.tongue01",
+      "WoolCharcoal"
+    ],
+    "nodes": [
+      "toe1-2.L",
+      "toe1-1.L",
+      "toe2-3.L",
+      "toe2-2.L",
+      "toe2-1.L",
+      "toe3-3.L",
+      "toe3-2.L",
+      "toe3-1.L",
+      "toe4-3.L",
+      "toe4-2.L",
+      "toe4-1.L",
+      "toe5-3.L",
+      "toe5-2.L",
+      "toe5-1.L",
+      "foot.L",
+      "lowerleg02.L",
+      "lowerleg01.L",
+      "upperleg02.L",
+      "upperleg01.L",
+      "pelvis.L",
+      "toe1-2.R",
+      "toe1-1.R",
+      "toe2-3.R",
+      "toe2-2.R",
+      "toe2-1.R",
+      "toe3-3.R",
+      "toe3-2.R",
+      "toe3-1.R",
+      "toe4-3.R",
+      "toe4-2.R",
+      "toe4-1.R",
+      "toe5-3.R",
+      "toe5-2.R",
+      "toe5-1.R",
+      "foot.R",
+      "lowerleg02.R",
+      "lowerleg01.R",
+      "upperleg02.R",
+      "upperleg01.R",
+      "pelvis.R",
+      "breast.L",
+      "breast.R",
+      "finger1-3.L",
+      "finger1-2.L",
+      "finger1-1.L",
+      "finger2-3.L",
+      "finger2-2.L",
+      "finger2-1.L",
+      "metacarpal1.L",
+      "finger3-3.L",
+      "finger3-2.L",
+      "finger3-1.L",
+      "metacarpal2.L",
+      "finger4-3.L",
+      "finger4-2.L",
+      "finger4-1.L",
+      "metacarpal3.L",
+      "finger5-3.L",
+      "finger5-2.L",
+      "finger5-1.L",
+      "metacarpal4.L",
+      "wrist.L",
+      "lowerarm02.L",
+      "lowerarm01.L",
+      "upperarm02.L",
+      "upperarm01.L",
+      "shoulder01.L",
+      "clavicle.L",
+      "finger1-3.R",
+      "finger1-2.R",
+      "finger1-1.R",
+      "finger2-3.R",
+      "finger2-2.R",
+      "finger2-1.R",
+      "metacarpal1.R",
+      "finger3-3.R",
+      "finger3-2.R",
+      "finger3-1.R",
+      "metacarpal2.R",
+      "finger4-3.R",
+      "finger4-2.R",
+      "finger4-1.R",
+      "metacarpal3.R",
+      "finger5-3.R",
+      "finger5-2.R",
+      "finger5-1.R",
+      "metacarpal4.R",
+      "wrist.R",
+      "lowerarm02.R",
+      "lowerarm01.R",
+      "upperarm02.R",
+      "upperarm01.R",
+      "shoulder01.R",
+      "clavicle.R",
+      "oris01",
+      "oris02",
+      "oris07.L",
+      "oris06.L",
+      "oris07.R",
+      "oris06.R",
+      "special04",
+      "tongue04",
+      "tongue07.L",
+      "tongue07.R",
+      "tongue03",
+      "tongue06.L",
+      "tongue06.R",
+      "tongue02",
+      "tongue05.L",
+      "tongue05.R",
+      "tongue01",
+      "tongue00",
+      "jaw",
+      "levator05.L",
+      "levator04.L",
+      "levator03.L",
+      "levator02.L",
+      "levator05.R",
+      "levator04.R",
+      "levator03.R",
+      "levator02.R",
+      "oris03.L",
+      "oris04.L",
+      "oris03.R",
+      "oris04.R",
+      "oris05",
+      "oris06",
+      "special01",
+      "levator06.L",
+      "levator06.R",
+      "special03",
+      "eye.L",
+      "orbicularis03.L",
+      "orbicularis04.L",
+      "special05.L",
+      "special06.L",
+      "eye.R",
+      "orbicularis03.R",
+      "orbicularis04.R",
+      "special05.R",
+      "special06.R",
+      "oculi01.L",
+      "oculi02.L",
+      "temporalis01.L",
+      "oculi01.R",
+      "oculi02.R",
+      "temporalis01.R",
+      "risorius03.L",
+      "risorius02.L",
+      "temporalis02.L",
+      "risorius03.R",
+      "risorius02.R",
+      "temporalis02.R",
+      "HairTip.L",
+      "HairMid.L",
+      "HairRoot.L",
+      "HairTip.R",
+      "HairMid.R",
+      "HairRoot.R",
+      "HairTip.Back",
+      "HairMid.Back",
+      "HairRoot.Back",
+      "head",
+      "neck03",
+      "neck02",
+      "neck01",
+      "spine01",
+      "spine02",
+      "spine03",
+      "spine04",
+      "spine05",
+      "root",
+      "AvatarBody",
+      "Brows",
+      "CharcoalTee",
+      "CollarRibbing",
+      "Eyes",
+      "HairCards.Back",
+      "HairCards.L",
+      "HairCards.R",
+      "LashesNatural",
+      "LidWetline",
+      "Shoes",
+      "Teeth",
+      "Tongue",
+      "Trousers",
+      "AvatarRig"
+    ],
+    "morphs": [
+      "eyeBlinkLeft",
+      "eyeBlinkRight",
+      "mouthSmileLeft",
+      "mouthSmileRight",
+      "jawOpen",
+      "browInnerUp"
+    ],
+    "meshes": [
+      "base.001",
+      "mind_eyebrows_02",
+      "t_shirt_basic_tucked",
+      "CollarRibbing",
+      "high-poly",
+      "GroomCardsMesh.Back",
+      "GroomCardsMesh.L",
+      "GroomCardsMesh.R",
+      "LashesNatural",
+      "LidWetline",
+      "shoes02",
+      "teeth_base",
+      "tongue01",
+      "pants_wool"
+    ],
+    "animations": [
+      "HeadTurn"
+    ],
+    "extensionsUsed": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_specular",
+      "KHR_materials_anisotropy"
+    ],
+    "extensionsRequired": []
+  },
+  "validator": {
+    "uri": "/workspace/scratch/defd6a072988/avatar/web/public/assets/avatar.glb",
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "validatedAt": "2026-10-03T14:45:51.161Z",
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 14,
+      "numInfos": 16,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/4/primitives/1/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/5/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/6/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/7/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/10/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/13/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/172"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/173"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/174"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/175"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/176"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/177"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/178"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/179"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/180"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/181"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/182"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/183"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/184"
+        },
+        {
+          "code": "NODE_SKINNED_MESH_NON_ROOT",
+          "message": "Node with a skinned mesh is not root. Parent transforms will not affect a skinned mesh.",
+          "severity": 1,
+          "pointer": "/nodes/185"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/25"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/38"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/54"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/61"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/123"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/132"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/139"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/148"
+        }
+      ],
+      "truncated": false
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "Khronos glTF Blender I/O v4.3.47",
+      "extensionsUsed": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_specular",
+        "KHR_materials_anisotropy"
+      ],
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 30046984
+        },
+        {
+          "pointer": "/images/0",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/1",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/2",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgb",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/3",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 1024,
+            "height": 1024,
+            "format": "rgba",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/4",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 512,
+            "height": 1024,
+            "format": "rgba",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/5",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 2048,
+            "height": 2048,
+            "format": "rgba",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        },
+        {
+          "pointer": "/images/6",
+          "mimeType": "image/png",
+          "storage": "buffer-view",
+          "image": {
+            "width": 1024,
+            "height": 1024,
+            "format": "rgb",
+            "primaries": "srgb",
+            "transfer": "srgb",
+            "bits": 8
+          }
+        }
+      ],
+      "animationCount": 1,
+      "materialCount": 12,
+      "hasMorphTargets": true,
+      "hasSkins": true,
+      "hasTextures": true,
+      "hasDefaultScene": true,
+      "drawCallCount": 15,
+      "totalVertexCount": 218817,
+      "totalTriangleCount": 286492,
+      "maxUVs": 1,
+      "maxInfluences": 8,
+      "maxAttributes": 8
+    }
+  }
+}

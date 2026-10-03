@@ -1,0 +1,794 @@
+{
+  "source": "/workspace/scratch/defd6a072988/avatar/scenes/avatar-master.blend",
+  "sourceSha256": "f312bd90b1b0e3f94cdce348fe9d92465dddd446fb74acf0d1ebac1f906fcd65",
+  "blender": "4.3.2",
+  "missingFiles": [],
+  "images": [
+    {
+      "name": "CrudeFemaleTshirtDiffuse.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "eye-brown-natural.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "GroomFiberAtlas",
+      "size": [
+        512,
+        1024
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "long01_diffuse.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "Pants_wool.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "shoes02_diffuse.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "skin-normal.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "skin-reference-clean-lids.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "skin-roughness.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "T-shirt_basic.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "teeth.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "tongue01_diffuse.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    }
+  ],
+  "objects": [
+    {
+      "name": "CollarRibbing",
+      "type": "MESH",
+      "dimensions": [
+        0.11633901298046112,
+        0.1026710718870163,
+        0.035073280334472656
+      ],
+      "parent": "AvatarRig",
+      "vertices": 208,
+      "faces": 208,
+      "uvMaps": [],
+      "materials": [
+        "CottonCharcoal"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "LidWetline",
+      "type": "MESH",
+      "dimensions": [
+        0.08309120684862137,
+        0.005835823714733124,
+        0.008970499038696289
+      ],
+      "parent": "AvatarRig",
+      "vertices": 2328,
+      "faces": 2312,
+      "uvMaps": [],
+      "materials": [
+        "LidWetline_Warm"
+      ],
+      "morphs": [
+        "Basis",
+        "eyeBlinkLeft",
+        "eyeBlinkRight",
+        "mouthSmileLeft",
+        "mouthSmileRight",
+        "jawOpen",
+        "browInnerUp"
+      ]
+    },
+    {
+      "name": "LashesNatural",
+      "type": "MESH",
+      "dimensions": [
+        0.0863320380449295,
+        0.011643335223197937,
+        0.011643171310424805
+      ],
+      "parent": "AvatarRig",
+      "vertices": 9504,
+      "faces": 8712,
+      "uvMaps": [],
+      "materials": [
+        "LashDarkBrown_Restrained"
+      ],
+      "morphs": [
+        "Basis",
+        "eyeBlinkLeft",
+        "eyeBlinkRight",
+        "mouthSmileLeft",
+        "mouthSmileRight",
+        "jawOpen",
+        "browInnerUp"
+      ]
+    },
+    {
+      "name": "Key",
+      "type": "LIGHT",
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null
+    },
+    {
+      "name": "Fill",
+      "type": "LIGHT",
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null
+    },
+    {
+      "name": "Rim",
+      "type": "LIGHT",
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null
+    },
+    {
+      "name": "PortraitCamera",
+      "type": "CAMERA",
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null
+    },
+    {
+      "name": "AvatarBody",
+      "type": "MESH",
+      "dimensions": [
+        0.5142610669136047,
+        0.3819119334220886,
+        1.427945852279663
+      ],
+      "parent": "AvatarRig",
+      "vertices": 19158,
+      "faces": 18486,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "Skin"
+      ],
+      "morphs": [
+        "Basis",
+        "$md-$as-$fe-$yn",
+        "$md-$ca-$fe-$yn",
+        "$md-$af-$fe-$yn",
+        "$md-universal-$fe-$yn-min$mu-min$wg",
+        "$md-universal-$fe-$yn-min$mu-$av$wg",
+        "$md-universal-$fe-$yn-$av$mu-min$wg",
+        "$md-universal-$fe-$yn-$av$mu-$av$wg",
+        "head-oval",
+        "head-scale-horiz-incr",
+        "head-fat-incr",
+        "chin-width-decr",
+        "chin-height-decr",
+        "nose-scale-horiz-incr",
+        "nose-scale-vert-incr",
+        "mouth-scale-horiz-incr",
+        "mouth-upperlip-volume-decr",
+        "mouth-trans-up",
+        "l-eye-eyefold-concave",
+        "r-eye-eyefold-concave",
+        "l-cheek-bones-incr",
+        "r-cheek-bones-incr",
+        "asym-jaw-1-l",
+        "FaceSurfaceRefine",
+        "eyeBlinkLeft",
+        "eyeBlinkRight",
+        "mouthSmileLeft",
+        "mouthSmileRight",
+        "jawOpen",
+        "browInnerUp"
+      ]
+    },
+    {
+      "name": "AvatarRig",
+      "type": "ARMATURE",
+      "dimensions": [
+        0.5039492249488831,
+        0.3912036418914795,
+        1.5850448608398438
+      ],
+      "parent": null,
+      "bones": [
+        "root",
+        "pelvis.L",
+        "upperleg01.L",
+        "upperleg02.L",
+        "lowerleg01.L",
+        "lowerleg02.L",
+        "foot.L",
+        "toe1-1.L",
+        "toe1-2.L",
+        "toe2-1.L",
+        "toe2-2.L",
+        "toe2-3.L",
+        "toe3-1.L",
+        "toe3-2.L",
+        "toe3-3.L",
+        "toe4-1.L",
+        "toe4-2.L",
+        "toe4-3.L",
+        "toe5-1.L",
+        "toe5-2.L",
+        "toe5-3.L",
+        "pelvis.R",
+        "upperleg01.R",
+        "upperleg02.R",
+        "lowerleg01.R",
+        "lowerleg02.R",
+        "foot.R",
+        "toe1-1.R",
+        "toe1-2.R",
+        "toe2-1.R",
+        "toe2-2.R",
+        "toe2-3.R",
+        "toe3-1.R",
+        "toe3-2.R",
+        "toe3-3.R",
+        "toe4-1.R",
+        "toe4-2.R",
+        "toe4-3.R",
+        "toe5-1.R",
+        "toe5-2.R",
+        "toe5-3.R",
+        "spine05",
+        "spine04",
+        "spine03",
+        "spine02",
+        "breast.L",
+        "breast.R",
+        "spine01",
+        "clavicle.L",
+        "shoulder01.L",
+        "upperarm01.L",
+        "upperarm02.L",
+        "lowerarm01.L",
+        "lowerarm02.L",
+        "wrist.L",
+        "finger1-1.L",
+        "finger1-2.L",
+        "finger1-3.L",
+        "metacarpal1.L",
+        "finger2-1.L",
+        "finger2-2.L",
+        "finger2-3.L",
+        "metacarpal2.L",
+        "finger3-1.L",
+        "finger3-2.L",
+        "finger3-3.L",
+        "metacarpal3.L",
+        "finger4-1.L",
+        "finger4-2.L",
+        "finger4-3.L",
+        "metacarpal4.L",
+        "finger5-1.L",
+        "finger5-2.L",
+        "finger5-3.L",
+        "clavicle.R",
+        "shoulder01.R",
+        "upperarm01.R",
+        "upperarm02.R",
+        "lowerarm01.R",
+        "lowerarm02.R",
+        "wrist.R",
+        "finger1-1.R",
+        "finger1-2.R",
+        "finger1-3.R",
+        "metacarpal1.R",
+        "finger2-1.R",
+        "finger2-2.R",
+        "finger2-3.R",
+        "metacarpal2.R",
+        "finger3-1.R",
+        "finger3-2.R",
+        "finger3-3.R",
+        "metacarpal3.R",
+        "finger4-1.R",
+        "finger4-2.R",
+        "finger4-3.R",
+        "metacarpal4.R",
+        "finger5-1.R",
+        "finger5-2.R",
+        "finger5-3.R",
+        "neck01",
+        "neck02",
+        "neck03",
+        "head",
+        "jaw",
+        "special04",
+        "oris02",
+        "oris01",
+        "oris06.L",
+        "oris07.L",
+        "oris06.R",
+        "oris07.R",
+        "tongue00",
+        "tongue01",
+        "tongue02",
+        "tongue03",
+        "tongue04",
+        "tongue07.L",
+        "tongue07.R",
+        "tongue06.L",
+        "tongue06.R",
+        "tongue05.L",
+        "tongue05.R",
+        "levator02.L",
+        "levator03.L",
+        "levator04.L",
+        "levator05.L",
+        "levator02.R",
+        "levator03.R",
+        "levator04.R",
+        "levator05.R",
+        "special01",
+        "oris04.L",
+        "oris03.L",
+        "oris04.R",
+        "oris03.R",
+        "oris06",
+        "oris05",
+        "special03",
+        "levator06.L",
+        "levator06.R",
+        "special06.L",
+        "special05.L",
+        "eye.L",
+        "orbicularis03.L",
+        "orbicularis04.L",
+        "special06.R",
+        "special05.R",
+        "eye.R",
+        "orbicularis03.R",
+        "orbicularis04.R",
+        "temporalis01.L",
+        "oculi02.L",
+        "oculi01.L",
+        "temporalis01.R",
+        "oculi02.R",
+        "oculi01.R",
+        "temporalis02.L",
+        "risorius02.L",
+        "risorius03.L",
+        "temporalis02.R",
+        "risorius02.R",
+        "risorius03.R",
+        "HairRoot.L",
+        "HairMid.L",
+        "HairTip.L",
+        "HairRoot.R",
+        "HairMid.R",
+        "HairTip.R",
+        "HairRoot.Back",
+        "HairMid.Back",
+        "HairTip.Back"
+      ]
+    },
+    {
+      "name": "Eyes",
+      "type": "MESH",
+      "dimensions": [
+        0.08976612240076065,
+        0.023366190493106842,
+        0.03082430362701416
+      ],
+      "parent": "AvatarRig",
+      "vertices": 1064,
+      "faces": 1020,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "EyeSurface",
+        "CorneaOptical"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "Brows",
+      "type": "MESH",
+      "dimensions": [
+        0.10147441923618317,
+        0.020276859402656555,
+        0.01053762435913086
+      ],
+      "parent": "AvatarRig",
+      "vertices": 12243,
+      "faces": 8811,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "AvatarBody.mindfront_eyebrows_02"
+      ],
+      "morphs": [
+        "Basis",
+        "eyeBlinkLeft",
+        "eyeBlinkRight",
+        "browInnerUp"
+      ]
+    },
+    {
+      "name": "Lashes",
+      "type": "MESH",
+      "dimensions": [
+        0.08920885622501373,
+        0.011906012892723083,
+        0.014759302139282227
+      ],
+      "parent": "AvatarRig",
+      "vertices": 11088,
+      "faces": 8316,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "AvatarBody.mindfront_eyelashes_01"
+      ],
+      "morphs": [
+        "Basis",
+        "eyeBlinkLeft",
+        "eyeBlinkRight",
+        "browInnerUp"
+      ]
+    },
+    {
+      "name": "Teeth",
+      "type": "MESH",
+      "dimensions": [
+        0.060356561094522476,
+        0.06857331097126007,
+        0.04597926139831543
+      ],
+      "parent": "AvatarRig",
+      "vertices": 3868,
+      "faces": 3560,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "AvatarBody.teeth_base"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "Tongue",
+      "type": "MESH",
+      "dimensions": [
+        0.04438052326440811,
+        0.06898108124732971,
+        0.026072382926940918
+      ],
+      "parent": "AvatarRig",
+      "vertices": 226,
+      "faces": 224,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "AvatarBody.tongue01"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "CharcoalTee",
+      "type": "MESH",
+      "dimensions": [
+        0.45093846321105957,
+        0.22952312231063843,
+        0.44399160146713257
+      ],
+      "parent": "AvatarRig",
+      "vertices": 1391,
+      "faces": 1350,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "CottonCharcoal"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "Trousers",
+      "type": "MESH",
+      "dimensions": [
+        0.43705514073371887,
+        0.2596524655818939,
+        0.9078227877616882
+      ],
+      "parent": "AvatarRig",
+      "vertices": 1372,
+      "faces": 1337,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "WoolCharcoal"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "Shoes",
+      "type": "MESH",
+      "dimensions": [
+        0.46020621061325073,
+        0.23666594922542572,
+        0.22571346163749695
+      ],
+      "parent": "AvatarRig",
+      "vertices": 1594,
+      "faces": 1532,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "Leather"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "Hair",
+      "type": "MESH",
+      "dimensions": [
+        0.25555017590522766,
+        0.2293626070022583,
+        0.7162154316902161
+      ],
+      "parent": "AvatarRig",
+      "vertices": 3239,
+      "faces": 2054,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "HairDarkBrown"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "StudioFloor",
+      "type": "MESH",
+      "dimensions": [
+        6.0,
+        6.0,
+        0.0
+      ],
+      "parent": null,
+      "vertices": 4,
+      "faces": 1,
+      "uvMaps": [
+        "UVMap"
+      ],
+      "materials": [
+        "StudioFloor"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "HairCards.L",
+      "type": "MESH",
+      "dimensions": [
+        0.12605136632919312,
+        0.279977023601532,
+        0.7194873690605164
+      ],
+      "parent": "AvatarRig",
+      "vertices": 47016,
+      "faces": 23704,
+      "uvMaps": [
+        "FiberUV"
+      ],
+      "materials": [
+        "GroomDarkBrownCards"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "HairGuidePoints.L",
+      "type": "MESH",
+      "dimensions": [
+        0.12593775987625122,
+        0.28170764446258545,
+        0.7208437919616699
+      ],
+      "parent": "AvatarRig",
+      "vertices": 631650,
+      "faces": 0,
+      "uvMaps": [],
+      "materials": [],
+      "morphs": []
+    },
+    {
+      "name": "HairStrands.L",
+      "type": "CURVES",
+      "dimensions": [
+        0.12593775987625122,
+        0.28170764446258545,
+        0.7208437919616699
+      ],
+      "parent": null
+    },
+    {
+      "name": "HairCards.R",
+      "type": "MESH",
+      "dimensions": [
+        0.13597750663757324,
+        0.2509058117866516,
+        0.7246103286743164
+      ],
+      "parent": "AvatarRig",
+      "vertices": 46792,
+      "faces": 23592,
+      "uvMaps": [
+        "FiberUV"
+      ],
+      "materials": [
+        "GroomDarkBrownCards"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "HairGuidePoints.R",
+      "type": "MESH",
+      "dimensions": [
+        0.13607019186019897,
+        0.25159087777137756,
+        0.7247608304023743
+      ],
+      "parent": "AvatarRig",
+      "vertices": 628042,
+      "faces": 0,
+      "uvMaps": [],
+      "materials": [],
+      "morphs": []
+    },
+    {
+      "name": "HairStrands.R",
+      "type": "CURVES",
+      "dimensions": [
+        0.13607019186019897,
+        0.25159087777137756,
+        0.7247608304023743
+      ],
+      "parent": null
+    },
+    {
+      "name": "HairCards.Back",
+      "type": "MESH",
+      "dimensions": [
+        0.2583387494087219,
+        0.08404746651649475,
+        0.6552116274833679
+      ],
+      "parent": "AvatarRig",
+      "vertices": 24840,
+      "faces": 12075,
+      "uvMaps": [
+        "FiberUV"
+      ],
+      "materials": [
+        "GroomDarkBrownCards"
+      ],
+      "morphs": []
+    },
+    {
+      "name": "HairGuidePoints.Back",
+      "type": "MESH",
+      "dimensions": [
+        0.26170670986175537,
+        0.08489435911178589,
+        0.6550282835960388
+      ],
+      "parent": "AvatarRig",
+      "vertices": 434700,
+      "faces": 0,
+      "uvMaps": [],
+      "materials": [],
+      "morphs": []
+    },
+    {
+      "name": "HairStrands.Back",
+      "type": "CURVES",
+      "dimensions": [
+        0.26170670986175537,
+        0.08489435911178589,
+        0.6550282835960388
+      ],
+      "parent": null
+    }
+  ],
+  "renderEngine": "CYCLES",
+  "viewTransform": "AgX"
+}

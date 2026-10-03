@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "method": "Extracted the delivered pipeline ZIP into a clean directory, linked the already-verified pinned vendor cache, and ran the documented Blender source build with --no-render.",
+  "networkDownloadsRetested": false,
+  "freshRuntimeDirectory": true,
+  "objectBoneMorphInventoryMatches": true,
+  "heightMeters": 1.5973788499832153,
+  "sourceRenderSkipped": true,
+  "log": "reports/fresh-archive-rebuild.log"
+}

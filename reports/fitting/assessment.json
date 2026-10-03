@@ -1,0 +1,129 @@
+{
+  "status": "experimental_only_not_promoted",
+  "geometry_outcome": "Modest source-feature improvement, insufficient as a meaningful ultrarealistic identity upgrade. Keep as an optional reversible shape, not an automatic production change.",
+  "fixed_camera_front_measurements_improved": [
+    {
+      "measure": "interiris_distance",
+      "before_absolute_error_percent": 10.051536609127288,
+      "after_absolute_error_percent": 7.621049879171526
+    },
+    {
+      "measure": "eye_left_fissure_width",
+      "before_absolute_error_percent": 7.67356881851401,
+      "after_absolute_error_percent": 5.83283193676043
+    },
+    {
+      "measure": "eye_right_fissure_width",
+      "before_absolute_error_percent": 5.98502270181025,
+      "after_absolute_error_percent": 3.394461151404371
+    },
+    {
+      "measure": "eye_left_aperture_height",
+      "before_absolute_error_percent": 9.920824780454684,
+      "after_absolute_error_percent": 8.255521429784075
+    },
+    {
+      "measure": "mouth_width",
+      "before_absolute_error_percent": 11.418706258881016,
+      "after_absolute_error_percent": 7.766165123969138
+    },
+    {
+      "measure": "nasal_base_width",
+      "before_absolute_error_percent": 8.748846673997402,
+      "after_absolute_error_percent": 5.952636745493079
+    },
+    {
+      "measure": "jaw_width",
+      "before_absolute_error_percent": 2.8085111982524946,
+      "after_absolute_error_percent": 2.592704687212155
+    },
+    {
+      "measure": "nose_root_to_subnasale",
+      "before_absolute_error_percent": 8.635405556759368,
+      "after_absolute_error_percent": 7.533115145307034
+    },
+    {
+      "measure": "eye_line_to_subnasale_vertical",
+      "before_absolute_error_percent": 9.351269649334936,
+      "after_absolute_error_percent": 6.772672309552597
+    },
+    {
+      "measure": "mouth_slit_to_chin_vertical",
+      "before_absolute_error_percent": 7.038822951651758,
+      "after_absolute_error_percent": 6.812391439768229
+    },
+    {
+      "measure": "lower_lip_vermilion_height_center",
+      "before_absolute_error_percent": 9.859346418153947,
+      "after_absolute_error_percent": 7.162456123003902
+    }
+  ],
+  "fixed_camera_front_measurements_regressed": [
+    {
+      "measure": "intercanthal_distance",
+      "before_absolute_error_percent": 1.3112604491066993,
+      "after_absolute_error_percent": 3.80456120422501
+    },
+    {
+      "measure": "eye_right_aperture_height",
+      "before_absolute_error_percent": 0.4655532651830607,
+      "after_absolute_error_percent": 2.7133902654495112
+    },
+    {
+      "measure": "subnasale_to_mouth_slit_vertical",
+      "before_absolute_error_percent": 1.8676086835822558,
+      "after_absolute_error_percent": 3.7650602409638467
+    },
+    {
+      "measure": "upper_lip_vermilion_height_center",
+      "before_absolute_error_percent": 0.9970465637502368,
+      "after_absolute_error_percent": 1.6505728828470456
+    }
+  ],
+  "structural_test": "Passed neutral mesh checks: zero inverted skin triangles; topology and UVs preserved.",
+  "human_appearance_approval": "Not obtained.",
+  "close_portrait_review": "Inspected 740x720 native rendered crop. The small mouth/nasal/eye-spacing change is visible but the skin, eyelid-orbital anatomy and facial character remain synthetic and generic. No substantial identity or ultrarealism gain established.",
+  "blink_review": "Inspected 740x720 full-blink crop at fit strength 1. Both lids close with no visible eyeball exposure and no obvious detached lash geometry. Lash direction still looks artificial; this does not approve combined motions or gaze.",
+  "deformation_not_tested": [
+    "smile",
+    "jaw open",
+    "eye rotations",
+    "combined motion"
+  ],
+  "limitations": [
+    "Four generated stills are not a calibrated scan.",
+    "Small profile residual gain is below manual annotation uncertainty.",
+    "Landmark detection changes with shading; fine-ratio changes are not reliable by themselves.",
+    "No new true pore detail, scan anatomy, or skin material was added.",
+    "The original v4 profile fitting camera was too frontal; those coefficients were not refit in this camera-only correction. The old profile residual is not acceptance evidence."
+  ],
+  "production_master_modified": false,
+  "application_test": "Passed 0->1->1->0 idempotent toggle and exact packaged-delta reconstruction; no save or rig mutation.",
+  "recommendation": "Keep the current production default and v4 inactive. The camera correction does not promote the shape. Front improvements and mixed fine-ratio changes remain; profile fit quality cannot be inferred from the original pose-mismatched comparison.",
+  "artifacts": {
+    "delta": "reports/fitting/reference-anatomy-v4.npz",
+    "settings": "reports/fitting/reference-anatomy-v4.json",
+    "application_function": "scripts/fitting/apply_reference_anatomy_fit.py",
+    "front_comparison": "renders/fitting/v4/front-reference-comparison.png",
+    "profile_comparison": "renders/fitting/camera/profile-camera-aligned-comparison.png",
+    "oblique_comparison": "renders/fitting/v4/right_oblique-reference-comparison.png",
+    "close_portrait": "renders/fitting/v4/close-after.png",
+    "blink": "renders/fitting/v4/close-blink.png",
+    "profile_camera_sweep": "renders/fitting/camera/profile-yaw-sweep.png",
+    "old_profile_comparison_superseded": "renders/fitting/v4/profile-reference-comparison.png"
+  },
+  "profile_assessment_correction": "The earlier profile comparison was too frontal (57.6-degree yaw). Camera-only renders with unchanged captured baseline anatomy at 65, 71.4 and 75 degrees remove the excess far-eye exposure. Its prior attribution to anatomical failure is withdrawn. Nose/lip contour attribution from the old pose-mismatched panel is also not reliable.",
+  "profile_camera_diagnostic": {
+    "robust_fit_yaw_degrees": 71.38450820691797,
+    "old_yaw_degrees": 57.640822374781244,
+    "old_expanded_anchor_rms_px": 12.5241119512,
+    "camera_refit_expanded_anchor_rms_px": 9.020708548,
+    "visually_bracketed_range_degrees": [
+      65,
+      75
+    ],
+    "exact_reference_camera_calibrated": false,
+    "geometry_changed": false,
+    "option_active": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "conclusion": "The dark vertical/scalloped upper-lid marks are caused by the source Skin Base Color contribution.",
+  "decisive_control": "Only disconnecting Base Color and assigning a constant color removes the marks while keeping geometry, lights, normal map, roughness, SSS, lashes and wetline unchanged.",
+  "additional_controls": "Disconnecting normal/coat normal does not restore the marks. Hiding lashes and then using plain clay also leaves the lids smooth. The small highlight ridge at the closed margin persists as geometry/light response; that is separate from the dark patterned marks.",
+  "scope": "This supports a wider upper-lid diffuse cleanup than the parent narrow rim strip. It does not prove that every existing lid shading defect is a texture issue.",
+  "original_attribution": "Initial diffuse attribution was made before causal isolation and was retracted pending these tests; it is now supported by the controlled constant-color result.",
+  "files": [
+    [
+      "blink-after-v3.png",
+      "Original source Skin material + v3 geometry"
+    ],
+    [
+      "blink-isolate-constant-color.png",
+      "Only Skin Base Color constant; normal/roughness/SSS unchanged"
+    ],
+    [
+      "blink-isolate-constant-color-flat-normal.png",
+      "Constant color + Normal / Coat Normal disconnected"
+    ],
+    [
+      "blink-isolate-flat-normal-no-lashes.png",
+      "Same, with both lash meshes hidden"
+    ],
+    [
+      "blink-isolate-plain-clay-no-lashes.png",
+      "Same, with constant roughness and no coat / SSS"
+    ]
+  ],
+  "source_saved": false
+}

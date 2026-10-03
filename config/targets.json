@@ -1,0 +1,21 @@
+{
+  "delivery": "interactive-browser",
+  "characterCount": 1,
+  "baselineBackend": "WebGL2",
+  "portraitResolution": [
+    900,
+    1100
+  ],
+  "physicalHeightMeters": 1.597379,
+  "hardwareValidation": "pending actual target device",
+  "visualApproval": "pending user review",
+  "provisionalBudgets": {
+    "triangles": 200000,
+    "initialTransferMB": 25
+  },
+  "heightStatus": "Current evaluated source bounding-box height after selected groom surface evaluation; not a scan measurement",
+  "provisionalGoals": {
+    "desktopFrameRate": 60,
+    "note": "Engineering experiment only; no user-approved numeric frame-rate or triangle budget."
+  }
+}

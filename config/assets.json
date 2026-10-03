@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "body",
+      "name": "MPFB anatomical hm08 base",
+      "path": "vendor/mpfb2/src/mpfb/data",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "skin",
+      "name": "MakeHuman young_caucasian_female2",
+      "path": "vendor/assets/skins/young_caucasian_female2",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "eyes",
+      "name": "MakeHuman high-poly eyes and brown color",
+      "path": "vendor/assets/eyes",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "brows",
+      "name": "Mindfront eyebrows 02",
+      "path": "vendor/assets/eyebrows/mindfront_eyebrows_02",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "lashes",
+      "name": "Mindfront eyelashes 01",
+      "path": "vendor/assets/eyelashes/mindfront_eyelashes_01",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "shirt",
+      "name": "MRT basic tucked T-shirt",
+      "path": "vendor/assets/clothes/toigo_basic_tucked_t-shirt",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "body-cover-mask",
+      "name": "Joel Palmius female T-shirt coverage",
+      "path": "vendor/assets/clothes/joepal_crude_t-shirt_female",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "trousers",
+      "name": "MRT wool trousers",
+      "path": "vendor/assets/clothes/toigo_wool_pants",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "shoes",
+      "name": "MakeHuman shoes02",
+      "path": "vendor/assets/clothes/shoes02",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "mouth",
+      "name": "MakeHuman teeth_base and tongue01",
+      "path": "vendor/assets",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "expressions",
+      "name": "Mika Suominen Faceunits 01",
+      "path": "vendor/assets/targets/faceunits",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "references",
+      "name": "Thirteen supplied generated reference images",
+      "path": ".",
+      "license": "User-supplied; no independent third-party license inferred"
+    },
+    {
+      "id": "groom",
+      "name": "Project-authored strand curves and cards",
+      "path": "scripts/blender/groom.py",
+      "license": "Original project work"
+    }
+  ]
+}

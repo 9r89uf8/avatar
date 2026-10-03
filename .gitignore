@@ -1,0 +1,21 @@
+# Generated/runtime data; supplied tracked files remain preserved.
+node_modules/
+web/dist/
+.runtime/
+vendor/
+scenes/*.blend1
+__pycache__/
+*.pyc
+
+.tools/
+
+# Restored byte-identical delivery files; numbered parts are versioned.
+/assets/textures/skin-base-tonematched.png
+/assets/textures/skin-normal.png
+/assets/textures/skin-reference-clean-lids.png
+/assets/textures/skin-reference-color.png
+/assets/textures/skin-reference-soft.png
+/assets/textures/skin-roughness.png
+/exports/avatar-uncompressed.glb
+/scenes/avatar-master.blend
+/web/public/assets/avatar.glb

@@ -1,0 +1,19 @@
+{
+  "status": "Selected for integration after neutral and blink render inspection; no overall realism approval",
+  "sourceAtlas": "assets/textures/skin-reference-soft.png",
+  "sourceAtlasSha256": "f34e0fa6625c67a6d278fb56ae344bee8a30841f7c33b8bf89252ee6ddd18641",
+  "selectedAtlas": "assets/textures/skin-reference-clean-lids.png",
+  "selectedAtlasSha256": "332ad695acc4253db38965a57491faa2943349e9e9a8e82e807b1c481017788f",
+  "replacementLinearRGB": [
+    0.43,
+    0.235,
+    0.145
+  ],
+  "mask": "Authored on current character closing-lid surfaces, using verified rim correspondences and feathered projected closed-lid regions; baked once to ordinary UV albedo. Not a view-dependent overlay.",
+  "geometryChangedByCleanup": false,
+  "sourceNormalAndRoughnessChanged": false,
+  "workingMasterChangedByExperiment": false,
+  "wholeAtlasMeanAbsoluteChannelDifference8bit": 0.70688357,
+  "caveat": "Authored correction, not recovered or measured skin albedo. Reinspect after anatomy/UV changes. Pale margin relief is a separate geometry/light response.",
+  "wholeAtlasMedianAbsoluteChannelDifference8bit": 0
+}

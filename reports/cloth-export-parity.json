@@ -1,0 +1,22 @@
+{
+  "glbSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+  "method": "Nearest source vertex after same delivery subdivision. GLB UV/normal vertex splits are expected.",
+  "toleranceMeters": 5e-05,
+  "objects": {
+    "CharcoalTee": {
+      "sourceVertices": 10968,
+      "glbVertices": 11794,
+      "maxDistanceMeters": 6.028182610862132e-07,
+      "meanDistanceMeters": 1.5917078063335574e-07,
+      "passed": true
+    },
+    "CollarRibbing": {
+      "sourceVertices": 832,
+      "glbVertices": 832,
+      "maxDistanceMeters": 4.862467335442489e-07,
+      "meanDistanceMeters": 1.5985903836245576e-07,
+      "passed": true
+    }
+  },
+  "passed": true
+}

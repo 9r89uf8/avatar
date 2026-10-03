@@ -1,0 +1,43 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> atelier-avatar-viewer@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ percentiles use deterministic linear interpolation without mutating input (1.401ms)
+✔ aggregation ignores nonfinite values and handles empty/single samples (0.218681ms)
+✔ bounded capture measures real interval mean FPS, quantiles, draws, and settings (0.881744ms)
+✔ state changes are snapshotted independently, including paused, reduced motion and hair (0.354636ms)
+✔ reset clears scheduled completion and does not retain samples into next capture (0.324901ms)
+✔ dispose is idempotent, clears timer, prevents new capture, and ignores later frames (0.608381ms)
+✔ overlapping capture is rejected and hidden-tab cancellation is explicit (0.388167ms)
+✔ invalid timestamps do not produce negative or infinite FPS (0.285101ms)
+✔ empty sample remains descriptive and JSON is portable with no fabricated FPS (0.412474ms)
+✔ capture duration and state-history capacity stay bounded (1.424485ms)
+✔ unknown draw-call counters are null, never fabricated zero measurements (0.202196ms)
+✔ reports terminal stalls and timer overruns separately from completed-frame interval FPS (0.135294ms)
+✔ counts actual nonzero influences per primitive for four and eight weights (2.496857ms)
+✔ rejects JOINTS_2/WEIGHTS_2 and higher instead of silently truncating (0.300965ms)
+✔ reads normalized integer weights and interleaved accessor stride (0.319113ms)
+✔ reads sparse weights and reports malformed or external weights explicitly (0.451443ms)
+✔ rejects malformed GLB before loading (0.635481ms)
+✔ post-load invariant requires actual Babylon eight-influence mode for every relevant primitive instance (0.446956ms)
+✔ post-load invariant refuses to guess missing source-to-runtime mapping (0.288296ms)
+✔ post-load invariant does not demand eight-influence mode for genuinely four-weight geometry (0.222176ms)
+✔ post-load invariant rejects either missing extra buffer and unverified buffer presence (0.562061ms)
+✔ blink stays physically bounded over 120 seconds (30.893555ms)
+✔ blink has closing, contact and slower opening phases (0.199051ms)
+✔ damping is independent of frame subdivision (0.201475ms)
+✔ damping never overshoots (0.162055ms)
+✔ frame inference respects source bounds and meter scale (0.175135ms)
+✔ clamp limits head and morph inputs (0.110317ms)
+✔ microgaze is bounded to small human-scale angles (16.938625ms)
+✔ microgaze is deterministic and has long holds (0.82655ms)
+✔ microgaze transitions continuously between held targets (6.949012ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 187.651756

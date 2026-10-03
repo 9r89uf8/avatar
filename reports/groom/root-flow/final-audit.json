@@ -1,0 +1,62 @@
+{
+  "inventory": {
+    "guides": 1333,
+    "strand_curves": 42285,
+    "web_triangles": 115982,
+    "chains": {
+      "L": [
+        "HairRoot.L",
+        "HairMid.L",
+        "HairTip.L"
+      ],
+      "R": [
+        "HairRoot.R",
+        "HairMid.R",
+        "HairTip.R"
+      ],
+      "Back": [
+        "HairRoot.Back",
+        "HairMid.Back",
+        "HairTip.Back"
+      ]
+    },
+    "part_offset_m": 0.0075,
+    "front_lock_guides": 41,
+    "front_lock_contact_bone": "spine01",
+    "revision": "distributed_scalp_emergence_v18_selected",
+    "seed": 42117
+  },
+  "follicle_surface_clearance_m": {
+    "HairGuidePoints.L": {
+      "root_count": 14625,
+      "minimum": 3.467583428573562e-05,
+      "maximum": 3.66503793998163e-05,
+      "mean": 3.500181348155731e-05,
+      "penetrating_roots_beyond_1um": 0,
+      "example_35_root_XY_extent_m": [
+        0.0012029651552438736,
+        0.0016025751829147339
+      ]
+    },
+    "HairGuidePoints.R": {
+      "root_count": 14625,
+      "minimum": 3.465746283382032e-05,
+      "maximum": 3.7670565845360215e-05,
+      "mean": 3.5003109882072954e-05,
+      "penetrating_roots_beyond_1um": 0,
+      "example_35_root_XY_extent_m": [
+        0.0012368629686534405,
+        0.001562461256980896
+      ]
+    }
+  },
+  "weight_sum_max_error": 0.0,
+  "upper_roots_head_only": true,
+  "zero_area_card_triangles": 0,
+  "card_triangle_count": 115982,
+  "head_yaw_test_degrees": 25,
+  "root_skinning_max_error_m": 1.2036781326982014e-07,
+  "root_samples": 5401,
+  "candidate_sha256": "67cc1266e88ae668abefd5787abbfb5aa3171cbf16ac18487d336a6595815ac0",
+  "active_groom_sha256": "cc36060812daa198ef2a09b7c954c27ab4faa9697f435323988bff2babddc7ce"
+}

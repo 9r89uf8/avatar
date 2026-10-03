@@ -1,0 +1,224 @@
+{
+  "sourceSha256": "f312bd90b1b0e3f94cdce348fe9d92465dddd446fb74acf0d1ebac1f906fcd65",
+  "scope": "Front-contact card vertices below chest threshold; not an exhaustive whole-hair collision proof. Includes UI yaw plus idle yaw/pitch/roll envelope.",
+  "scenarios": [
+    {
+      "head_yaw_degrees": 0,
+      "spring_offset_radians": 0,
+      "idle_pitch_radians": 0,
+      "idle_roll_radians": 0,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005767669528722763,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": 25,
+      "spring_offset_radians": 0,
+      "idle_pitch_radians": 0,
+      "idle_roll_radians": 0,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005330033600330353,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": -25,
+      "spring_offset_radians": 0,
+      "idle_pitch_radians": 0,
+      "idle_roll_radians": 0,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005904585123062134,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": -25.859436692696235,
+      "spring_offset_radians": -0.065,
+      "idle_pitch_radians": -0.006,
+      "idle_roll_radians": -0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005910694599151611,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": -25.859436692696235,
+      "spring_offset_radians": -0.065,
+      "idle_pitch_radians": -0.006,
+      "idle_roll_radians": 0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.0059041716158390045,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": -25.859436692696235,
+      "spring_offset_radians": -0.065,
+      "idle_pitch_radians": 0.006,
+      "idle_roll_radians": -0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.0059030987322330475,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": -25.859436692696235,
+      "spring_offset_radians": -0.065,
+      "idle_pitch_radians": 0.006,
+      "idle_roll_radians": 0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005896724760532379,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": -25.859436692696235,
+      "spring_offset_radians": 0.065,
+      "idle_pitch_radians": -0.006,
+      "idle_roll_radians": -0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005895264446735382,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": -25.859436692696235,
+      "spring_offset_radians": 0.065,
+      "idle_pitch_radians": -0.006,
+      "idle_roll_radians": 0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.00588897243142128,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": -25.859436692696235,
+      "spring_offset_radians": 0.065,
+      "idle_pitch_radians": 0.006,
+      "idle_roll_radians": -0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.0058875977993011475,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": -25.859436692696235,
+      "spring_offset_radians": 0.065,
+      "idle_pitch_radians": 0.006,
+      "idle_roll_radians": 0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005881510674953461,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": 25.859436692696235,
+      "spring_offset_radians": -0.065,
+      "idle_pitch_radians": -0.006,
+      "idle_roll_radians": -0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005323633551597595,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": 25.859436692696235,
+      "spring_offset_radians": -0.065,
+      "idle_pitch_radians": -0.006,
+      "idle_roll_radians": 0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005333412438631058,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": 25.859436692696235,
+      "spring_offset_radians": -0.065,
+      "idle_pitch_radians": 0.006,
+      "idle_roll_radians": -0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005310673266649246,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": 25.859436692696235,
+      "spring_offset_radians": -0.065,
+      "idle_pitch_radians": 0.006,
+      "idle_roll_radians": 0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.0053204260766506195,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": 25.859436692696235,
+      "spring_offset_radians": 0.065,
+      "idle_pitch_radians": -0.006,
+      "idle_roll_radians": -0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005310341715812683,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": 25.859436692696235,
+      "spring_offset_radians": 0.065,
+      "idle_pitch_radians": -0.006,
+      "idle_roll_radians": 0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005319930613040924,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": 25.859436692696235,
+      "spring_offset_radians": 0.065,
+      "idle_pitch_radians": 0.006,
+      "idle_roll_radians": -0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005297448486089706,
+      "penetrating_vertices": 0,
+      "examples": []
+    },
+    {
+      "head_yaw_degrees": 25.859436692696235,
+      "spring_offset_radians": 0.065,
+      "idle_pitch_radians": 0.006,
+      "idle_roll_radians": 0.004,
+      "chest_contact_vertices_checked": 587,
+      "minimum_front_clearance_m": 0.005306888371706009,
+      "penetrating_vertices": 0,
+      "examples": []
+    }
+  ],
+  "groom_inventory": {
+    "guides": 1333,
+    "strand_curves": 42285,
+    "web_triangles": 115982,
+    "chains": {
+      "L": [
+        "HairRoot.L",
+        "HairMid.L",
+        "HairTip.L"
+      ],
+      "R": [
+        "HairRoot.R",
+        "HairMid.R",
+        "HairTip.R"
+      ],
+      "Back": [
+        "HairRoot.Back",
+        "HairMid.Back",
+        "HairTip.Back"
+      ]
+    },
+    "part_offset_m": 0.0075,
+    "front_lock_guides": 41,
+    "front_lock_contact_bone": "spine01",
+    "revision": "distributed_scalp_emergence_v18_selected",
+    "seed": 42117
+  },
+  "weight_sum_error_max": 0.0
+}

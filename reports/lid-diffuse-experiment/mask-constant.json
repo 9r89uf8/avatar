@@ -1,0 +1,6 @@
+{
+  "source": "Existing tonematched CC0 base replaces photo-derived color only on narrow verified upper/lower lid strips",
+  "verticesAtFullMask": 224,
+  "bodyVertices": 19158,
+  "faces": "rim_faces and outer_to_next_skin_faces in reports/eyelids/rim-correspondence.json"
+}

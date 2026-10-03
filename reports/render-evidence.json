@@ -1,0 +1,124 @@
+{
+  "sourceBlendSha256": "f312bd90b1b0e3f94cdce348fe9d92465dddd446fb74acf0d1ebac1f906fcd65",
+  "glbSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+  "status": "Actual source and imported-GLB renders inspected. Not ultrarealistic. No browser screenshot or user approval.",
+  "images": [
+    {
+      "type": "Editable source rendered in Blender Cycles",
+      "sourceBlendSha256": "f312bd90b1b0e3f94cdce348fe9d92465dddd446fb74acf0d1ebac1f906fcd65",
+      "imageSha256": "ea21d68c17c61f65c0a55d7439c39adc2044d5b84c370c6330fe9243639b689b",
+      "view": "portrait",
+      "expression": "neutral",
+      "samples": 512,
+      "evidence": "reports/build-integrated-refined.log confirms 512 samples and successful image write",
+      "file": "renders/portrait-baseline.png",
+      "visuallyInspected": true
+    },
+    {
+      "type": "Editable source rendered in Blender Cycles",
+      "sourceBlendSha256": "f312bd90b1b0e3f94cdce348fe9d92465dddd446fb74acf0d1ebac1f906fcd65",
+      "imageSha256": "67ce8e102cde255cb3d81c7f35d2c9762ccd1e419e51a8d761d6d46e8a71ff84",
+      "view": "three-quarter",
+      "expression": "neutral",
+      "samples": 128,
+      "file": "renders/three-quarter-refined-v2.png",
+      "visuallyInspected": true
+    },
+    {
+      "type": "Editable source rendered in Blender Cycles",
+      "sourceBlendSha256": "f312bd90b1b0e3f94cdce348fe9d92465dddd446fb74acf0d1ebac1f906fcd65",
+      "imageSha256": "ebea7e9221d7bcfca478c24fc6c1b3c1d0375a3f50588dc44a090626e2adf15e",
+      "view": "profile",
+      "expression": "neutral",
+      "samples": 128,
+      "file": "renders/profile-refined-v2.png",
+      "visuallyInspected": true
+    },
+    {
+      "type": "Editable source rendered in Blender Cycles",
+      "sourceBlendSha256": "f312bd90b1b0e3f94cdce348fe9d92465dddd446fb74acf0d1ebac1f906fcd65",
+      "imageSha256": "641105e25b5978bed794d521fe59e705b5de4fe7293a5179eee153faafa741e1",
+      "view": "full",
+      "expression": "neutral",
+      "samples": 96,
+      "file": "renders/full-refined-v2.png",
+      "visuallyInspected": true
+    },
+    {
+      "type": "Editable source rendered in Blender Cycles",
+      "sourceBlendSha256": "f312bd90b1b0e3f94cdce348fe9d92465dddd446fb74acf0d1ebac1f906fcd65",
+      "imageSha256": "4d89eaf77b8e14a6b7de5234e7a35bcbaa94f127ba3ba8f6da7eb0bce1e0c378",
+      "view": "portrait",
+      "expression": "blink",
+      "samples": 128,
+      "file": "renders/blink-refined-v2.png",
+      "visuallyInspected": true
+    },
+    {
+      "type": "GLB re-import in Blender Cycles, not browser screenshot",
+      "sourceGLBSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+      "imageSha256": "ff981061abcb77af25104e286804bf39f7583fd1ee559621ba233f25c63f5ca2",
+      "pose": {
+        "expression": "neutral",
+        "headTurnDegrees": 0
+      },
+      "view": "portrait",
+      "samples": 256,
+      "file": "renders/glb-portrait-refined.png",
+      "visuallyInspected": true
+    },
+    {
+      "type": "GLB re-import in Blender Cycles, not browser screenshot",
+      "sourceGLBSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+      "imageSha256": "6fc2a0a497b3e885b09cb31c53a491aa2d0cbfaabeb219cd8274debfda484f0e",
+      "pose": {
+        "expression": "neutral",
+        "headTurnDegrees": 0
+      },
+      "view": "profile",
+      "samples": 128,
+      "file": "renders/glb-profile-refined.png",
+      "visuallyInspected": true
+    },
+    {
+      "type": "GLB re-import in Blender Cycles, not browser screenshot",
+      "sourceGLBSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+      "imageSha256": "9a52275ba31e4ab647d586bad78e6fc36b55a122b8e6ebd8c22c85721d7eaa79",
+      "pose": {
+        "expression": "neutral",
+        "headTurnDegrees": 0
+      },
+      "view": "full",
+      "samples": 96,
+      "file": "renders/glb-full-refined.png",
+      "visuallyInspected": true
+    },
+    {
+      "type": "GLB re-import in Blender Cycles, not browser screenshot",
+      "sourceGLBSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+      "imageSha256": "cc3adafb1ba4659e0b2aaa517094e25599510a975727e39391efd3865835e005",
+      "pose": {
+        "expression": "blink",
+        "headTurnDegrees": 0
+      },
+      "view": "portrait",
+      "samples": 96,
+      "file": "renders/glb-blink-refined.png",
+      "visuallyInspected": true
+    },
+    {
+      "type": "GLB re-import in Blender Cycles, not browser screenshot",
+      "sourceGLBSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+      "imageSha256": "4c802c84e04b3bc42f561da42013340a4ae74a0a4fefd374559f002776cbf04b",
+      "pose": {
+        "expression": "smile",
+        "headTurnDegrees": 25.0,
+        "observedHeadRotationDegrees": 25.00000012650595
+      },
+      "view": "portrait",
+      "samples": 96,
+      "file": "renders/glb-turn-smile-refined.png",
+      "visuallyInspected": true
+    }
+  ]
+}

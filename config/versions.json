@@ -1,0 +1,15 @@
+{
+  "blender": "4.3.2",
+  "mpfb": "2.0.17",
+  "mpfbCommit": "afb9f530a7c2741dedb8df0ebae2e0b183caec21",
+  "node": "v24.19.0",
+  "python": "Python 3.12.14",
+  "babylon": "8.32.0",
+  "typescript": "5.9.3",
+  "vite": "7.1.9",
+  "seedGroom": 42117,
+  "sourceRenderer": "Cycles CPU",
+  "browserBaseline": "WebGL2 required; cloud capability unavailable; runtime appearance and hardware performance unverified",
+  "pillow": "12.3.0",
+  "numpyCLI": "2.3.5"
+}

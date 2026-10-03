@@ -1,0 +1,52 @@
+{
+  "status": "work_in_progress_visual_target_not_met",
+  "sourceBlendSha256": "f312bd90b1b0e3f94cdce348fe9d92465dddd446fb74acf0d1ebac1f906fcd65",
+  "glbSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+  "sourceOpen": "passed; 12 of 12 file images packed, no missing dependencies",
+  "sourcePortrait": "512-sample render inspected; smooth synthetic face, bare/doll-like eyes and regular groom remain",
+  "sourceViews": "portrait, three-quarter, profile, full body and blink inspected",
+  "glbReimport": "portrait, full body, profile, full blink and observed 25-degree head turn plus smile inspected",
+  "glbVisualLimitations": "Oblique eyes become gray/reflective; bank-like hair ends are exposed by head turn; no ultrarealism approval",
+  "gltfValidation": {
+    "errors": 0,
+    "warnings": 14,
+    "warningType": "NODE_SKINNED_MESH_NON_ROOT"
+  },
+  "typescriptProductionBuild": "passed; existing large-chunk warning retained",
+  "tests": {
+    "passed": 30,
+    "failed": 0
+  },
+  "clothExportParity": "passed; source and re-imported delivery shirt/collar within 0.00000061 m in tested neutral pose",
+  "hairContactStress": "19 tested neutral/yaw/idle/spring cases; zero tested front-contact penetrations; minimum 5.297 mm. Not an exhaustive full-hair collision proof.",
+  "runtimeEightWeightInvariant": "Viewer rejects higher weight sets and requires actual numBoneInfluencers>=8 plus both extra buffers for primitives needing more than four. Code/tests verified; GPU execution unavailable.",
+  "browserWebGL": "Official Khronos capability pages fail in permitted cloud browser",
+  "browserAppearance": "not verified",
+  "targetDeviceFrameRate": "not measured",
+  "humanRealismApproval": "not obtained",
+  "provisionalBudgets": {
+    "triangles": {
+      "goal": 200000,
+      "measured": 286492,
+      "met": false
+    },
+    "initialAssetBytes": {
+      "goal": 25000000,
+      "measured": 30248948,
+      "met": false
+    },
+    "userApprovedBudget": false
+  },
+  "unapprovedActions": "No publication, purchase, vendor contact, push or merge",
+  "recommendedNextStep": "Legally cleared high-resolution head/material source plus substantive character-art refinement, and authorized WebGL2 target-device verification.",
+  "freshArchiveRebuild": {
+    "status": "passed",
+    "method": "Extracted the delivered pipeline ZIP into a clean directory, linked the already-verified pinned vendor cache, and ran the documented Blender source build with --no-render.",
+    "networkDownloadsRetested": false,
+    "freshRuntimeDirectory": true,
+    "objectBoneMorphInventoryMatches": true,
+    "heightMeters": 1.5973788499832153,
+    "sourceRenderSkipped": true,
+    "log": "reports/fresh-archive-rebuild.log"
+  }
+}

@@ -1,0 +1,25 @@
+// Structural checks supplement, but do not replace, a real browser render.
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {parseGlb,inspectSkinInfluences} from '../src/gltf-contract.ts';
+const bytes=await readFile('public/assets/avatar.glb');
+assert.equal(bytes.toString('ascii',0,4),'glTF');
+assert.equal(bytes.readUInt32LE(4),2);
+const gltf=JSON.parse(bytes.toString('utf8',20,20+bytes.readUInt32LE(12)));
+const parsed=parseGlb(bytes),skinInfluences=inspectSkinInfluences(parsed.gltf,parsed.binary);
+assert.deepEqual(skinInfluences.issues,[],'all primitives fit the installed eight-weight skinning contract');
+const sidecar=JSON.parse(await readFile('public/assets/avatar.web.json','utf8'));
+const jointIndices=new Set(gltf.skins.flatMap(skin=>skin.joints));
+const headIndex=gltf.nodes.findIndex(node=>node.name===sidecar.headNode);
+assert.ok(headIndex>=0,'head node exists');
+assert.ok(jointIndices.has(headIndex),'head control is a real skinning joint');
+const morphNames=gltf.meshes.flatMap(mesh=>mesh.extras?.targetNames??[]);
+for(const target of [...sidecar.morphTargets.blink,...sidecar.morphTargets.smile])assert.ok(morphNames.includes(target),`${target} morph exists`);
+for(const name of sidecar.hairNodes??[])assert.ok(jointIndices.has(gltf.nodes.findIndex(node=>node.name===name)),`${name} is a skeleton joint`);
+const skinMaterialIndex=gltf.materials.findIndex(material=>sidecar.skinMaterials.includes(material.name));
+assert.ok(skinMaterialIndex>=0,'exact skin material exists');
+const skinPrimitives=gltf.meshes.flatMap(mesh=>mesh.primitives).filter(primitive=>primitive.material===skinMaterialIndex);
+assert.ok(skinPrimitives.length>0,'skin is assigned to real geometry');
+assert.ok(skinPrimitives.every(primitive=>'POSITION' in primitive.attributes&&'NORMAL' in primitive.attributes),'skin has positions and normals');
+assert.ok(skinPrimitives.every(primitive=>'JOINTS_0' in primitive.attributes&&'WEIGHTS_0' in primitive.attributes),'skin has weighted bones');
+console.log(JSON.stringify({passed:true,skinInfluences,skinPrimitives:skinPrimitives.length,headIndex,morphs:[...new Set(morphNames)],hairNodes:sidecar.hairNodes??[],scope:'Structural rendering contract, not appearance or WebGL execution'},null,2));

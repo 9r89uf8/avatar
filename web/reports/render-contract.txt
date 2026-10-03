@@ -1,0 +1,221 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> atelier-avatar-viewer@1.0.0 verify:contract
+> node scripts/check-render-contract.mjs
+
+{
+  "passed": true,
+  "skinInfluences": {
+    "issues": [],
+    "primitives": [
+      {
+        "mesh": "base.001",
+        "meshIndex": 0,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0",
+          "WEIGHTS_1"
+        ],
+        "vertices": 40573,
+        "maxNonzeroWeights": 8,
+        "meanNonzeroWeights": 3.0143691617578194,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "mind_eyebrows_02",
+        "meshIndex": 1,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0"
+        ],
+        "vertices": 18709,
+        "maxNonzeroWeights": 3,
+        "meanNonzeroWeights": 2.5121064728205678,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "t_shirt_basic_tucked",
+        "meshIndex": 2,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0",
+          "WEIGHTS_1"
+        ],
+        "vertices": 11794,
+        "maxNonzeroWeights": 8,
+        "meanNonzeroWeights": 5.597507207054434,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "CollarRibbing",
+        "meshIndex": 3,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0",
+          "WEIGHTS_1"
+        ],
+        "vertices": 832,
+        "maxNonzeroWeights": 8,
+        "meanNonzeroWeights": 7.480769230769231,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "high-poly",
+        "meshIndex": 4,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0"
+        ],
+        "vertices": 2162,
+        "maxNonzeroWeights": 3,
+        "meanNonzeroWeights": 1.2178538390379279,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "high-poly",
+        "meshIndex": 4,
+        "primitiveIndex": 1,
+        "weightSets": [
+          "WEIGHTS_0"
+        ],
+        "vertices": 2025,
+        "maxNonzeroWeights": 3,
+        "meanNonzeroWeights": 1.2153086419753087,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "GroomCardsMesh.Back",
+        "meshIndex": 5,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0"
+        ],
+        "vertices": 24840,
+        "maxNonzeroWeights": 2,
+        "meanNonzeroWeights": 1.60841384863124,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "GroomCardsMesh.L",
+        "meshIndex": 6,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0"
+        ],
+        "vertices": 47016,
+        "maxNonzeroWeights": 3,
+        "meanNonzeroWeights": 1.220393057682491,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "GroomCardsMesh.R",
+        "meshIndex": 7,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0"
+        ],
+        "vertices": 46792,
+        "maxNonzeroWeights": 3,
+        "meanNonzeroWeights": 1.2091383142417507,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "LashesNatural",
+        "meshIndex": 8,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0"
+        ],
+        "vertices": 9504,
+        "maxNonzeroWeights": 1,
+        "meanNonzeroWeights": 1,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "LidWetline",
+        "meshIndex": 9,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0"
+        ],
+        "vertices": 2328,
+        "maxNonzeroWeights": 1,
+        "meanNonzeroWeights": 1,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "shoes02",
+        "meshIndex": 10,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0",
+          "WEIGHTS_1"
+        ],
+        "vertices": 1738,
+        "maxNonzeroWeights": 8,
+        "meanNonzeroWeights": 2.4010356731875717,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "teeth_base",
+        "meshIndex": 11,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0"
+        ],
+        "vertices": 4494,
+        "maxNonzeroWeights": 1,
+        "meanNonzeroWeights": 1,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "tongue01",
+        "meshIndex": 12,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0",
+          "WEIGHTS_1"
+        ],
+        "vertices": 253,
+        "maxNonzeroWeights": 8,
+        "meanNonzeroWeights": 4.9604743083003955,
+        "unreadableReason": null
+      },
+      {
+        "mesh": "pants_wool",
+        "meshIndex": 13,
+        "primitiveIndex": 0,
+        "weightSets": [
+          "WEIGHTS_0",
+          "WEIGHTS_1"
+        ],
+        "vertices": 5757,
+        "maxNonzeroWeights": 8,
+        "meanNonzeroWeights": 3.9098488796248048,
+        "unreadableReason": null
+      }
+    ]
+  },
+  "skinPrimitives": 1,
+  "headIndex": 162,
+  "morphs": [
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "jawOpen",
+    "browInnerUp"
+  ],
+  "hairNodes": [
+    "HairRoot.L",
+    "HairMid.L",
+    "HairTip.L",
+    "HairRoot.R",
+    "HairMid.R",
+    "HairTip.R",
+    "HairRoot.Back",
+    "HairMid.Back",
+    "HairTip.Back"
+  ],
+  "scope": "Structural rendering contract, not appearance or WebGL execution"
+}

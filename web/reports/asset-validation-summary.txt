@@ -1,0 +1,15 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> atelier-avatar-viewer@1.0.0 verify:asset
+> node scripts/verify-asset.mjs
+
+{
+  "file": "/workspace/scratch/defd6a072988/avatar/web/public/assets/avatar.glb",
+  "bytes": 30248948,
+  "sha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+  "errors": 0,
+  "warnings": 14,
+  "infos": 16,
+  "contractIssues": [],
+  "report": "/workspace/scratch/defd6a072988/avatar/reports/gltf-validation.json"
+}

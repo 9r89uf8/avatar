@@ -1,0 +1,49 @@
+{
+  "sha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+  "bytes": 30248948,
+  "expressions": [
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "jawOpen",
+    "browInnerUp"
+  ],
+  "objects": [
+    "CollarRibbing",
+    "LidWetline",
+    "LashesNatural",
+    "AvatarBody",
+    "AvatarRig",
+    "Eyes",
+    "Brows",
+    "Teeth",
+    "Tongue",
+    "CharcoalTee",
+    "Trousers",
+    "Shoes",
+    "HairCards.L",
+    "HairCards.R",
+    "HairCards.Back"
+  ],
+  "exportSettings": {
+    "filepath": "/workspace/scratch/defd6a072988/avatar/exports/avatar-uncompressed.glb",
+    "export_format": "GLB",
+    "use_selection": true,
+    "export_apply": false,
+    "export_yup": true,
+    "export_animations": true,
+    "export_skins": true,
+    "export_morph": true,
+    "export_morph_normal": true,
+    "export_tangents": true,
+    "export_all_influences": false,
+    "export_influence_nb": 8,
+    "export_materials": "EXPORT",
+    "export_extras": true,
+    "export_cameras": false,
+    "export_lights": false,
+    "export_rest_position_armature": false
+  },
+  "triangleCount": 286492
+}

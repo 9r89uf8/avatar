@@ -1,0 +1,6 @@
+# Reproducible local-only landmark extraction; use a virtualenv or --target.
+# Legacy 0.10.21 is intentional: it includes FaceMesh and the refined iris model.
+mediapipe==0.10.21
+numpy==1.26.4
+opencv-contrib-python==4.11.0.86
+scipy==1.17.1

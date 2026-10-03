@@ -1,0 +1,19 @@
+{
+  "old_landmark_reference": {
+    "index": 468,
+    "x": 0.4482491612434387,
+    "y": 0.4131035804748535,
+    "z": 0.010597909800708294,
+    "pixel_x": 403.42424511909485,
+    "pixel_y": 454.41393852233887
+  },
+  "overwritten_camera_copy": {
+    "index": 468,
+    "x": 0.40885472297668457,
+    "y": 0.3273743987083435,
+    "z": 0.015076160430908203,
+    "pixel_x": 367.9692506790161,
+    "pixel_y": 360.11183857917786
+  },
+  "status": "Mismatch detected and excluded. Bake uses old landmark JSON plus the consistent original projection, not the unannotated copy."
+}

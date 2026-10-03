@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "modelUrl": "/assets/avatar.glb",
+  "glbSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+  "metersPerUnit": 1,
+  "skinMaterials": [
+    "Skin"
+  ],
+  "eyeMaterials": [
+    "EyeSurface"
+  ],
+  "hairMaterials": [
+    "GroomDarkBrownCards"
+  ],
+  "headNode": "head",
+  "hairNodes": [
+    "HairRoot.L",
+    "HairMid.L",
+    "HairTip.L",
+    "HairRoot.R",
+    "HairMid.R",
+    "HairTip.R",
+    "HairRoot.Back",
+    "HairMid.Back",
+    "HairTip.Back"
+  ],
+  "eyeNodes": [
+    "eye.L",
+    "eye.R"
+  ],
+  "morphTargets": {
+    "blink": [
+      "eyeBlinkLeft",
+      "eyeBlinkRight"
+    ],
+    "smile": [
+      "mouthSmileLeft",
+      "mouthSmileRight"
+    ],
+    "jawOpen": [
+      "jawOpen"
+    ]
+  },
+  "cameras": {
+    "portrait": {
+      "target": [
+        0,
+        1.435,
+        0.08
+      ],
+      "radius": 0.83,
+      "alpha": 1.5707963,
+      "beta": 1.49
+    },
+    "full": {
+      "target": [
+        0,
+        0.83,
+        0
+      ],
+      "radius": 3.25,
+      "alpha": 1.5707963,
+      "beta": 1.5
+    },
+    "threeQuarter": {
+      "target": [
+        0,
+        1.435,
+        0.04
+      ],
+      "radius": 0.86,
+      "alpha": 1.13,
+      "beta": 1.5
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "GLB re-import in Blender Cycles, not browser screenshot",
+  "sourceGLBSha256": "d310f41100d5ef98d1691a6678795f23c76073cc92da30bc888cbb452edc4b60",
+  "imageSha256": "cc3adafb1ba4659e0b2aaa517094e25599510a975727e39391efd3865835e005",
+  "pose": {
+    "expression": "blink",
+    "headTurnDegrees": 0
+  },
+  "view": "portrait",
+  "samples": 96
+}

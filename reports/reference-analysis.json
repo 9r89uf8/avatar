@@ -1,0 +1,848 @@
+{
+  "reference_analysis_version": 1,
+  "character_scope": "Clothed adult female character as specified by the build brief; image appearance is not an age estimate.",
+  "source_status": "User-supplied generated reference images, not a calibrated photographic multiview capture.",
+  "primary_reference": "Gemini_Generated_Image_8acbj88acbj88acb.jfif",
+  "secondary_reference": "Gemini_Generated_Image_j1wmblj1wmblj1wm.jfif",
+  "file_paths": {
+    "front_landmarks": "reference/Gemini_Generated_Image_8acbj88acbj88acb.landmarks.json",
+    "profile_landmarks": "reference/Gemini_Generated_Image_j1wmblj1wmblj1wm.landmarks.json"
+  },
+  "front_semantic_landmarks": {
+    "nose_tip_lower": {
+      "index": 1,
+      "x": 0.5011705756187439,
+      "y": 0.3909778296947479,
+      "z": -0.08806195110082626,
+      "pixel_x": 465.08629417419434,
+      "pixel_y": 450.4064598083496
+    },
+    "subnasale": {
+      "index": 2,
+      "x": 0.5014962553977966,
+      "y": 0.4035852253437042,
+      "z": -0.044317279011011124,
+      "pixel_x": 465.3885250091553,
+      "pixel_y": 464.93017959594727
+    },
+    "nose_tip_front": {
+      "index": 4,
+      "x": 0.5010434985160828,
+      "y": 0.3773311674594879,
+      "z": -0.09468124061822891,
+      "pixel_x": 464.9683666229248,
+      "pixel_y": 434.6855049133301
+    },
+    "nose_bridge": {
+      "index": 6,
+      "x": 0.5018773674964905,
+      "y": 0.31630223989486694,
+      "z": -0.048370037227869034,
+      "pixel_x": 465.74219703674316,
+      "pixel_y": 364.3801803588867
+    },
+    "glabella": {
+      "index": 9,
+      "x": 0.5017209053039551,
+      "y": 0.26540130376815796,
+      "z": -0.04554630443453789,
+      "pixel_x": 465.5970001220703,
+      "pixel_y": 305.74230194091797
+    },
+    "forehead_landmark_not_hairline": {
+      "index": 10,
+      "x": 0.5020657181739807,
+      "y": 0.19726626574993134,
+      "z": -0.03317603841423988,
+      "pixel_x": 465.9169864654541,
+      "pixel_y": 227.2507381439209
+    },
+    "upper_lip_center": {
+      "index": 0,
+      "x": 0.5032870173454285,
+      "y": 0.4317987561225891,
+      "z": -0.04318081960082054,
+      "pixel_x": 467.0503520965576,
+      "pixel_y": 497.43216705322266
+    },
+    "mouth_slit_upper": {
+      "index": 13,
+      "x": 0.5032480359077454,
+      "y": 0.44567644596099854,
+      "z": -0.02636648714542389,
+      "pixel_x": 467.0141773223877,
+      "pixel_y": 513.4192657470703
+    },
+    "mouth_slit_lower": {
+      "index": 14,
+      "x": 0.5030733942985535,
+      "y": 0.4458809196949005,
+      "z": -0.025460636243224144,
+      "pixel_x": 466.8521099090576,
+      "pixel_y": 513.6548194885254
+    },
+    "lower_lip_center": {
+      "index": 17,
+      "x": 0.5033137798309326,
+      "y": 0.46947094798088074,
+      "z": -0.026409372687339783,
+      "pixel_x": 467.07518768310547,
+      "pixel_y": 540.8305320739746
+    },
+    "eye_image_left_outer": {
+      "index": 33,
+      "x": 0.38346990942955017,
+      "y": 0.30948901176452637,
+      "z": 0.024869052693247795,
+      "pixel_x": 355.86007595062256,
+      "pixel_y": 356.5313415527344
+    },
+    "eye_image_left_inner": {
+      "index": 133,
+      "x": 0.4576660394668579,
+      "y": 0.31283900141716003,
+      "z": 0.008720465004444122,
+      "pixel_x": 424.71408462524414,
+      "pixel_y": 360.39052963256836
+    },
+    "eye_image_left_upper": {
+      "index": 159,
+      "x": 0.412937730550766,
+      "y": 0.29895222187042236,
+      "z": 0.00023037770006339997,
+      "pixel_x": 383.20621395111084,
+      "pixel_y": 344.39295959472656
+    },
+    "eye_image_left_lower": {
+      "index": 145,
+      "x": 0.41599273681640625,
+      "y": 0.3177652657032013,
+      "z": 0.0047896611504256725,
+      "pixel_x": 386.041259765625,
+      "pixel_y": 366.0655860900879
+    },
+    "eye_image_right_outer": {
+      "index": 263,
+      "x": 0.6266837120056152,
+      "y": 0.3069087266921997,
+      "z": 0.021005747839808464,
+      "pixel_x": 581.5624847412109,
+      "pixel_y": 353.55885314941406
+    },
+    "eye_image_right_inner": {
+      "index": 362,
+      "x": 0.553030252456665,
+      "y": 0.3124845027923584,
+      "z": 0.006935424171388149,
+      "pixel_x": 513.2120742797852,
+      "pixel_y": 359.9821472167969
+    },
+    "eye_image_right_upper": {
+      "index": 386,
+      "x": 0.596392810344696,
+      "y": 0.2970394194126129,
+      "z": -0.002743336372077465,
+      "pixel_x": 553.4525279998779,
+      "pixel_y": 342.1894111633301
+    },
+    "eye_image_right_lower": {
+      "index": 374,
+      "x": 0.593928873538971,
+      "y": 0.31782761216163635,
+      "z": 0.0018956768326461315,
+      "pixel_x": 551.165994644165,
+      "pixel_y": 366.1374092102051
+    },
+    "mouth_image_left": {
+      "index": 61,
+      "x": 0.4352940618991852,
+      "y": 0.4453376233577728,
+      "z": 0.011625649407505989,
+      "pixel_x": 403.95288944244385,
+      "pixel_y": 513.0289421081543
+    },
+    "mouth_image_right": {
+      "index": 291,
+      "x": 0.5721175074577332,
+      "y": 0.4426340162754059,
+      "z": 0.009475105442106724,
+      "pixel_x": 530.9250469207764,
+      "pixel_y": 509.9143867492676
+    },
+    "nose_base_image_left": {
+      "index": 98,
+      "x": 0.45881789922714233,
+      "y": 0.39977455139160156,
+      "z": -0.022509070113301277,
+      "pixel_x": 425.7830104827881,
+      "pixel_y": 460.540283203125
+    },
+    "nose_base_image_right": {
+      "index": 327,
+      "x": 0.5450986623764038,
+      "y": 0.3993417024612427,
+      "z": -0.023709848523139954,
+      "pixel_x": 505.85155868530273,
+      "pixel_y": 460.04164123535156
+    },
+    "nose_side_image_left": {
+      "index": 129,
+      "x": 0.448682963848114,
+      "y": 0.38594967126846313,
+      "z": -0.013408521190285683,
+      "pixel_x": 416.3777904510498,
+      "pixel_y": 444.61402130126953
+    },
+    "nose_side_image_right": {
+      "index": 358,
+      "x": 0.5559056997299194,
+      "y": 0.38532572984695435,
+      "z": -0.015086797997355461,
+      "pixel_x": 515.8804893493652,
+      "pixel_y": 443.8952407836914
+    },
+    "temple_image_left": {
+      "index": 127,
+      "x": 0.3207240402698517,
+      "y": 0.31740257143974304,
+      "z": 0.16413648426532745,
+      "pixel_x": 297.63190937042236,
+      "pixel_y": 365.647762298584
+    },
+    "temple_image_right": {
+      "index": 356,
+      "x": 0.6890564560890198,
+      "y": 0.3136865496635437,
+      "z": 0.15798987448215485,
+      "pixel_x": 639.4443912506104,
+      "pixel_y": 361.36690521240234
+    },
+    "cheek_image_left": {
+      "index": 234,
+      "x": 0.3233165144920349,
+      "y": 0.3464924395084381,
+      "z": 0.17935742437839508,
+      "pixel_x": 300.0377254486084,
+      "pixel_y": 399.1592903137207
+    },
+    "cheek_image_right": {
+      "index": 454,
+      "x": 0.686800479888916,
+      "y": 0.34275293350219727,
+      "z": 0.1732715368270874,
+      "pixel_x": 637.3508453369141,
+      "pixel_y": 394.85137939453125
+    },
+    "jaw_image_left": {
+      "index": 172,
+      "x": 0.3674390912055969,
+      "y": 0.4661405086517334,
+      "z": 0.13810336589813232,
+      "pixel_x": 340.98347663879395,
+      "pixel_y": 536.9938659667969
+    },
+    "jaw_image_right": {
+      "index": 397,
+      "x": 0.6436599493026733,
+      "y": 0.4630003571510315,
+      "z": 0.13342610001564026,
+      "pixel_x": 597.3164329528809,
+      "pixel_y": 533.3764114379883
+    },
+    "chin": {
+      "index": 152,
+      "x": 0.5052628517150879,
+      "y": 0.5346243381500244,
+      "z": 0.026242109015583992,
+      "pixel_x": 468.88392639160156,
+      "pixel_y": 615.8872375488281
+    },
+    "nose_root": {
+      "index": 168,
+      "x": 0.5020014047622681,
+      "y": 0.29952841997146606,
+      "z": -0.03788435831665993,
+      "pixel_x": 465.85730361938477,
+      "pixel_y": 345.0567398071289
+    },
+    "iris_image_left": {
+      "index": 468,
+      "x": 0.41852766275405884,
+      "y": 0.30720576643943787,
+      "z": 0.008736671879887581,
+      "pixel_x": 388.3936710357666,
+      "pixel_y": 353.9010429382324
+    },
+    "iris_image_right": {
+      "index": 473,
+      "x": 0.5909110307693481,
+      "y": 0.3062278926372528,
+      "z": 0.005868205334991217,
+      "pixel_x": 548.3654365539551,
+      "pixel_y": 352.77453231811523
+    },
+    "brow_image_left_outer": {
+      "index": 70,
+      "x": 0.3465750813484192,
+      "y": 0.277428537607193,
+      "z": 0.026011662557721138,
+      "pixel_x": 321.621675491333,
+      "pixel_y": 319.5976753234863
+    },
+    "brow_image_left_peak": {
+      "index": 105,
+      "x": 0.38574641942977905,
+      "y": 0.2582775354385376,
+      "z": -0.01715230569243431,
+      "pixel_x": 357.97267723083496,
+      "pixel_y": 297.5357208251953
+    },
+    "brow_image_left_inner": {
+      "index": 107,
+      "x": 0.458925724029541,
+      "y": 0.26476430892944336,
+      "z": -0.042859699577093124,
+      "pixel_x": 425.88307189941406,
+      "pixel_y": 305.00848388671875
+    },
+    "brow_image_right_inner": {
+      "index": 336,
+      "x": 0.5432918667793274,
+      "y": 0.26232975721359253,
+      "z": -0.04389920085668564,
+      "pixel_x": 504.1748523712158,
+      "pixel_y": 302.2038803100586
+    },
+    "brow_image_right_peak": {
+      "index": 334,
+      "x": 0.61830735206604,
+      "y": 0.253193736076355,
+      "z": -0.020416058599948883,
+      "pixel_x": 573.7892227172852,
+      "pixel_y": 291.67918395996094
+    },
+    "brow_image_right_outer": {
+      "index": 300,
+      "x": 0.6605122089385986,
+      "y": 0.2731177508831024,
+      "z": 0.021438857540488243,
+      "pixel_x": 612.9553298950195,
+      "pixel_y": 314.631649017334
+    }
+  },
+  "front_measurements": {
+    "units": "image pixels, not millimeters",
+    "pixel": {
+      "face_cheek_width": 337.3406,
+      "interiris_distance": 159.9757,
+      "intercanthal_distance": 88.4989,
+      "eye_left_fissure_width": 68.9621,
+      "eye_right_fissure_width": 68.6516,
+      "eye_left_aperture_height": 21.8573,
+      "eye_right_aperture_height": 24.0569,
+      "mouth_width": 127.0104,
+      "nasal_base_width": 80.0701,
+      "jaw_width": 256.3585,
+      "nose_root_to_subnasale": 119.8744,
+      "eye_line_to_subnasale_vertical": 111.5924,
+      "subnasale_to_mouth_slit_vertical": 48.6069,
+      "mouth_slit_to_chin_vertical": 102.3502,
+      "upper_lip_vermilion_height_center": 16.1049,
+      "lower_lip_vermilion_height_center": 27.2935,
+      "iris_left_horizontal_diameter": 30.1464,
+      "iris_right_horizontal_diameter": 32.2313
+    },
+    "relative_to_cheek_width": {
+      "face_cheek_width": 1.0,
+      "interiris_distance": 0.474226,
+      "intercanthal_distance": 0.262343,
+      "eye_left_fissure_width": 0.204429,
+      "eye_right_fissure_width": 0.203508,
+      "eye_left_aperture_height": 0.064793,
+      "eye_right_aperture_height": 0.071313,
+      "mouth_width": 0.376505,
+      "nasal_base_width": 0.237357,
+      "jaw_width": 0.75994,
+      "nose_root_to_subnasale": 0.355351,
+      "eye_line_to_subnasale_vertical": 0.3308,
+      "subnasale_to_mouth_slit_vertical": 0.144088,
+      "mouth_slit_to_chin_vertical": 0.303403,
+      "upper_lip_vermilion_height_center": 0.047741,
+      "lower_lip_vermilion_height_center": 0.080908,
+      "iris_left_horizontal_diameter": 0.089365,
+      "iris_right_horizontal_diameter": 0.095545
+    },
+    "valid_for_anatomical_comparison": "near-front only; profile values are foreshortened"
+  },
+  "manual_front_hairline": [
+    {
+      "name": "image_left_temple",
+      "pixel_x": 300,
+      "pixel_y": 334,
+      "x": 0.3232758620689655,
+      "y": 0.2899305555555556,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 10,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_left_hairline_1",
+      "pixel_x": 319,
+      "pixel_y": 282,
+      "x": 0.34375,
+      "y": 0.24479166666666666,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 8,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_left_hairline_2",
+      "pixel_x": 364,
+      "pixel_y": 231,
+      "x": 0.3922413793103448,
+      "y": 0.20052083333333334,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 8,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_left_hairline_3",
+      "pixel_x": 419,
+      "pixel_y": 195,
+      "x": 0.4515086206896552,
+      "y": 0.16927083333333334,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 8,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "part_hairline_apex",
+      "pixel_x": 491,
+      "pixel_y": 157,
+      "x": 0.5290948275862069,
+      "y": 0.1362847222222222,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 5,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_right_hairline_1",
+      "pixel_x": 536,
+      "pixel_y": 199,
+      "x": 0.5775862068965517,
+      "y": 0.17274305555555555,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_right_hairline_2",
+      "pixel_x": 577,
+      "pixel_y": 246,
+      "x": 0.6217672413793104,
+      "y": 0.21354166666666666,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_right_hairline_3",
+      "pixel_x": 608,
+      "pixel_y": 290,
+      "x": 0.6551724137931034,
+      "y": 0.2517361111111111,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 8,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_right_temple",
+      "pixel_x": 636,
+      "pixel_y": 334,
+      "x": 0.6853448275862069,
+      "y": 0.2899305555555556,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 10,
+      "z": null,
+      "not_calibrated_3d": true
+    }
+  ],
+  "manual_front_hair_and_ears": [
+    {
+      "name": "hair_crown_top",
+      "pixel_x": 486,
+      "pixel_y": 49,
+      "x": 0.5237068965517241,
+      "y": 0.042534722222222224,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 6,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "part_upper",
+      "pixel_x": 493,
+      "pixel_y": 92,
+      "x": 0.53125,
+      "y": 0.0798611111111111,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 6,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "part_lower",
+      "pixel_x": 491,
+      "pixel_y": 147,
+      "x": 0.5290948275862069,
+      "y": 0.12760416666666666,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 5,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_left_ear_top",
+      "pixel_x": 277,
+      "pixel_y": 343,
+      "x": 0.2984913793103448,
+      "y": 0.2977430555555556,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 8,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_left_ear_bottom",
+      "pixel_x": 303,
+      "pixel_y": 462,
+      "x": 0.3265086206896552,
+      "y": 0.4010416666666667,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 8,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_right_ear_top",
+      "pixel_x": 660,
+      "pixel_y": 336,
+      "x": 0.7112068965517241,
+      "y": 0.2916666666666667,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 8,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "image_right_ear_bottom",
+      "pixel_x": 638,
+      "pixel_y": 464,
+      "x": 0.6875,
+      "y": 0.4027777777777778,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 8,
+      "z": null,
+      "not_calibrated_3d": true
+    }
+  ],
+  "manual_profile_silhouette": [
+    {
+      "name": "frontal_hairline",
+      "pixel_x": 695,
+      "pixel_y": 199,
+      "x": 0.7489224137931034,
+      "y": 0.17274305555555555,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "upper_forehead",
+      "pixel_x": 724,
+      "pixel_y": 270,
+      "x": 0.7801724137931034,
+      "y": 0.234375,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "brow_ridge",
+      "pixel_x": 735,
+      "pixel_y": 331,
+      "x": 0.7920258620689655,
+      "y": 0.2873263888888889,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 6,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "nose_root",
+      "pixel_x": 728,
+      "pixel_y": 375,
+      "x": 0.7844827586206896,
+      "y": 0.3255208333333333,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "nose_ridge_upper",
+      "pixel_x": 742,
+      "pixel_y": 408,
+      "x": 0.7995689655172413,
+      "y": 0.3541666666666667,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 6,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "nose_ridge_lower",
+      "pixel_x": 760,
+      "pixel_y": 443,
+      "x": 0.8189655172413793,
+      "y": 0.3845486111111111,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 5,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "nose_frontmost",
+      "pixel_x": 780,
+      "pixel_y": 475,
+      "x": 0.8405172413793104,
+      "y": 0.4123263888888889,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 4,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "nose_lower_tip",
+      "pixel_x": 769,
+      "pixel_y": 494,
+      "x": 0.8286637931034483,
+      "y": 0.4288194444444444,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 4,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "subnasale",
+      "pixel_x": 735,
+      "pixel_y": 511,
+      "x": 0.7920258620689655,
+      "y": 0.4435763888888889,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 5,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "upper_lip_frontmost",
+      "pixel_x": 747,
+      "pixel_y": 546,
+      "x": 0.8049568965517241,
+      "y": 0.4739583333333333,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 5,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "lip_slit_frontmost",
+      "pixel_x": 736,
+      "pixel_y": 568,
+      "x": 0.7931034482758621,
+      "y": 0.4930555555555556,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 5,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "lower_lip_frontmost",
+      "pixel_x": 743,
+      "pixel_y": 585,
+      "x": 0.8006465517241379,
+      "y": 0.5078125,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 5,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "labiomental_fold",
+      "pixel_x": 722,
+      "pixel_y": 614,
+      "x": 0.7780172413793104,
+      "y": 0.5329861111111112,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 6,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "chin_frontmost",
+      "pixel_x": 726,
+      "pixel_y": 644,
+      "x": 0.7823275862068966,
+      "y": 0.5590277777777778,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "chin_lower_curve",
+      "pixel_x": 712,
+      "pixel_y": 674,
+      "x": 0.7672413793103449,
+      "y": 0.5850694444444444,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "chin_bottom",
+      "pixel_x": 674,
+      "pixel_y": 690,
+      "x": 0.7262931034482759,
+      "y": 0.5989583333333334,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "under_jaw_front",
+      "pixel_x": 617,
+      "pixel_y": 686,
+      "x": 0.6648706896551724,
+      "y": 0.5954861111111112,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 8,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "under_jaw_neck_transition",
+      "pixel_x": 581,
+      "pixel_y": 687,
+      "x": 0.6260775862068966,
+      "y": 0.5963541666666666,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 9,
+      "z": null,
+      "not_calibrated_3d": true
+    }
+  ],
+  "manual_profile_ear": [
+    {
+      "name": "ear_top",
+      "pixel_x": 355,
+      "pixel_y": 390,
+      "x": 0.38254310344827586,
+      "y": 0.3385416666666667,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 6,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "helix_outer",
+      "pixel_x": 340,
+      "pixel_y": 442,
+      "x": 0.36637931034482757,
+      "y": 0.3836805555555556,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 6,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "ear_lobe_bottom",
+      "pixel_x": 411,
+      "pixel_y": 550,
+      "x": 0.44288793103448276,
+      "y": 0.4774305555555556,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    },
+    {
+      "name": "tragus",
+      "pixel_x": 411,
+      "pixel_y": 471,
+      "x": 0.44288793103448276,
+      "y": 0.4088541666666667,
+      "source": "manual visual annotation",
+      "uncertainty_px_approx": 7,
+      "z": null,
+      "not_calibrated_3d": true
+    }
+  ],
+  "visual_traits": {
+    "face": "Oval with broad softly rounded upper cheeks and tapered lower jaw; rounded narrow chin without a sharply pointed tip.",
+    "eyes": "Almond-shaped brown eyes; upper lid covers upper iris; narrow shadow at upper lash line; clear lower waterline; modest sclera exposure.",
+    "brows": "Dense dark brown, broad inner thirds and largely straight low arch; tapered outer tails. Strong likeness cue.",
+    "nose": "Relatively compact rounded tip, moderate bridge, rounded alar wings, subtle nostril floor. Avoid a sharp triangular or pinched tip.",
+    "lips": "Closed relaxed mouth with gentle cupid bow and fuller lower vermilion; corners slightly elevated. No exaggerated smile.",
+    "hair": "Long straight dark brown, low crown volume, slightly off-center narrow part with fine scalp line; fitted temple transitions; hair tucked behind visible ear in profile.",
+    "skin": "Reference has warm medium-light skin under soft studio lighting; image RGB is not intrinsic albedo. Keep variation around nose/ears/lips and avoid uniform orange or wax-white materials."
+  },
+  "fit_priority": [
+    "Match lens/framing and face orientation before interpreting shape differences.",
+    "Fit head height, cheek width, lower-jaw taper and rounded chin, while preserving anatomical topology.",
+    "Fit relative eye spacing and lid aperture, then nasal base width/projection and mouth/philtrum.",
+    "Fit real hairline and eyebrow density from manual/photo evidence, not detector forehead point 10.",
+    "Validate front, near-profile and three-quarter with the same physical mesh.",
+    "Treat model z, occluded contour, ear positions and manually marked profile as soft constraints."
+  ],
+  "projection_recommendations": [
+    "Use the photo as a restricted front-face color detail layer after geometry and camera fitting, not as a replacement for real mesh anatomy.",
+    "Calculate camera projection UVs from fitted camera; keep existing full-head UV atlas for final baking.",
+    "Bake only front-visible skin with z-buffer occlusion and a front-normal weight. Feather to original albedo before cheek sides/temples and beyond forehead/lower jaw.",
+    "Exclude eye globes, nostril cavities, inner mouth, eyelashes, hair and occluded ears from projected skin color.",
+    "Separate color detail from low-frequency lighting; do not transfer baked nostril/lip shadows or nose highlights into normal/roughness maps.",
+    "At 928px input width the visible face is only about 338px wide. Upscaling cannot supply genuine pore detail; use properly licensed generic skin microdetail at a separate frequency.",
+    "Manual hairline controls form an approximate guide. Follow real hair roots and scalp, and avoid a uniformly thick front shell."
+  ],
+  "limitations": [
+    "These are generated stills and can disagree in depth, ear shape, hairline and expression. They do not define a unique metric 3D head.",
+    "The near-profile reference still shows the far eye and is not an orthographic 90-degree side measurement.",
+    "MediaPipe z is weak-perspective inferred depth, not a measured scan; preserve anatomical source depth and regularize any fit.",
+    "All manual points have approximate uncertainty in pixels; no hidden or occluded feature is marked as observed.",
+    "Profile MediaPipe chin sits about 29px above the visible bottom. Profile inferred far face must not be used as a silhouette.",
+    "MediaPipe forehead point 10 is at y227 versus manual visible part/hairline apex y157. It must never set the hairline.",
+    "Lighting, exposure, lens and crop have not been calibrated. Skin color numbers must not be treated as true surface reflectance."
+  ],
+  "sources": [
+    {
+      "title": "MediaPipe official Face Mesh solution and coordinate conventions",
+      "url": "https://github.com/google-ai-edge/mediapipe/blob/master/docs/solutions/face_mesh.md"
+    },
+    {
+      "title": "MediaPipe official landmark connection definitions",
+      "url": "https://github.com/google-ai-edge/mediapipe/blob/master/mediapipe/python/solutions/face_mesh_connections.py"
+    }
+  ]
+}

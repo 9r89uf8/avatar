@@ -1,0 +1,33 @@
+{
+  "output": "assets/textures/skin-reference-soft.png",
+  "unchanged_original_sha256": "661020dc1d5b18cfab6abffcb62c14305362b4738a69f90f6bfa66f38d1def29",
+  "method": "Robust quadratic illumination field fitted to clean reference-skin L*, 45% removal, +/-5 L* cap; broad nose/under-brow lifts with dark-core protection; a*/b* chroma retained",
+  "clean_skin_pixels": 35783,
+  "robust_polynomial_coefficients": [
+    81.04585502197865,
+    17.88533657234365,
+    -6.941580857176881,
+    -26.330845207223568,
+    4.818691121128079,
+    -13.612097532800398
+  ],
+  "reference_L_star_anchor": 73.87086266701172,
+  "L_star_delta_on_active_face": {
+    "mean": 0.14683377742767334,
+    "min": -4.622616291046143,
+    "max": 6.120079517364502
+  },
+  "preserved": [
+    "Original best map bytes unchanged",
+    "Skin chroma (Lab a*/b*)",
+    "Deep brow/lash/nostril/lip core darkness",
+    "Original base-tone match and feathered photo mask",
+    "Geometry, normal and roughness maps"
+  ],
+  "limitations": [
+    "Conservative appearance adjustment, not physical inverse rendering or true recovered albedo.",
+    "Some baked illumination and occlusion remain intentionally; difficult nose/eye shadows need relit 3D review.",
+    "A quadratic field cannot separate pigmentation, subsurface response, specular and illumination exactly.",
+    "Duplicate eyebrow or lash geometry requires the scene owner to adjust geometry/materials; a texture cannot solve that alone."
+  ]
+}

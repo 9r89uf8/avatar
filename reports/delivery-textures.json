@@ -1,0 +1,42 @@
+[
+  {
+    "source": "assets/textures/skin-reference-clean-lids.png",
+    "output": "assets/delivery/skin-color.jpg",
+    "size": [
+      2048,
+      2048
+    ],
+    "bytes": 740700,
+    "sha256": "55c6a85053c09713bee41f35c12a2aa8acdc7f53bd1d664d6618b40e3a8b1fd8"
+  },
+  {
+    "source": "assets/textures/skin-normal.png",
+    "output": "assets/delivery/skin-normal.png",
+    "size": [
+      2048,
+      2048
+    ],
+    "bytes": 479692,
+    "sha256": "dbffa771a1c7bb48d13b90af6702d7b907736f09a79b4dac6e857e8799144489"
+  },
+  {
+    "source": "assets/textures/skin-roughness.png",
+    "output": "assets/delivery/skin-roughness.png",
+    "size": [
+      2048,
+      2048
+    ],
+    "bytes": 831074,
+    "sha256": "6ad6d4bcc89746271e24036cd24372056bac1c5fc091e2a36db4e341cad2b551"
+  },
+  {
+    "source": "assets/textures/eye-brown-natural.png",
+    "output": "assets/delivery/eye-brown-natural.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "bytes": 621192,
+    "sha256": "8ae5ae7126247ed33fc5bf1624095571103bb78ed424666585e4979eddb2b077"
+  }
+]

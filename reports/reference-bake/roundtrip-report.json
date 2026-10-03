@@ -1,0 +1,13 @@
+{
+  "method": "Unlit UV-color CPU perspective rasterization with nearest-depth testing",
+  "purpose": "Check photo feature registration survived atlas baking; not realistic lighting QA",
+  "visible_high_strength_pixels": 25137,
+  "mean_absolute_rgb_error_vs_warped_source": 1.3399901871079816,
+  "p95_absolute_rgb_error_vs_warped_source": 3.0,
+  "notes": [
+    "Residual includes 4% retained base skin, color blending and raster resampling.",
+    "Backdrop is the preserved original annotated render. Green detector marks are diagnostic only.",
+    "Original hair and eyes remain in the composite; it is explicitly a diagnostic.",
+    "Blender front/profile renders remain required for realistic final evaluation."
+  ]
+}
